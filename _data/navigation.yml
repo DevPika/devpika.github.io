@@ -1,0 +1,17 @@
+main:
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
+
+sidebar:
+  - title: "Projects"
+    url: /projects/
+    children:
+      - title: "Project 1"
+        url: /child-1-page-url/
+      - title: "Project 2"
+        url: /child-2-page-url/
+
+  - title: "About"
+    url: /about/
