@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DevPika's website"
+title                    : "DevPika's Corner"
 title_separator          : "-"
 name                     : "Ayaskant Panigrahi"
-description              : "A personal website with some awesome projects!"
+description              : "A personal website showcasing some of my projects!"
 url                      : https://devpika.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : devpika/devpika.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "Ayaskant Panigrahi"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Hopelessly in love with clean code and unobtrusive design!"
   location         : "Jabalpur, India"
   email            : "gameshire@gmail.com"
   links:
@@ -125,6 +125,9 @@ author:
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
       url: "https://github.com/DevPika"
+    - label: "Behance"
+      icon: "fab fa-fw fa-behance-square"
+      url: "https://www.behance.net/ayaskant"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -138,10 +141,16 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
+    - label: "Email"
+      icon: "fab fa-fw fa-envelope-square"
+      url: "mailto:gameshire@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
       url: "https://github.com/DevPika"
+    - label: "Behance"
+      icon: "fab fa-fw fa-behance-square"
+      url: "https://www.behance.net/ayaskant"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
