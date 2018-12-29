@@ -8,10 +8,10 @@ sidebar:
   - title: "Projects"
     url: /projects/
     children:
-      - title: "Project 1"
-        url: /child-1-page-url/
-      - title: "Project 2"
-        url: /child-2-page-url/
+      - title: "Recyclotron 5000"
+        url: /projects/recyclotron-5000/
+      - title: "Jigree: A Travel Companion"
+        url: /projects/jigree-travel-companion/
 
   - title: "About"
     url: /about/
