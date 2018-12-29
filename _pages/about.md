@@ -3,15 +3,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am an undergraduate student pursuing Bachelor in Technology in Computer Science and Engineering at PDPM Indian Institute of Information Technology, Design & Manufactuing, Jabalpur, India. I am always on the lookout for innovative ways of interacting with computers and their applications in various fields.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Follow me on [GitHub](https://github.com/DevPika), [Behance](https://behance.net/ayaskant) or visit this site frequently to keep track of my latest projects!
