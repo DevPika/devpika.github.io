@@ -28,4 +28,4 @@ GRE General Test: 332/340 (Q – 168, V – 164, AW – 4)
 
 [gh]: https://github.com/DevPika
 [be]: https://behance.net/ayaskant
-[cv]: https://github.com/DevPika/devpika.github.io/raw/master/assets/Ayaskant_Panigrahi_CV.pdf
+[cv]: https://github.com/DevPika/devpika.github.io/blob/master/assets/Ayaskant_Panigrahi_CV.pdf
