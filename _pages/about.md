@@ -21,6 +21,7 @@ GRE General Test: 332/340 (Q – 168, V – 164, AW – 4)
 
 ### Relevant courses
 
+* Interface Design ( *Jan 2019, ongoing* )
 * Machine Learning ( *Jan 2019, ongoing* )
 * Image Processing ( *Jan 2019, ongoing* )
 * Introduction to R Software ( *Aug - Nov 2018* )
