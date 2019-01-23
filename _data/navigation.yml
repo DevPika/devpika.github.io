@@ -3,6 +3,8 @@ main:
     url: /projects/
   - title: "About"
     url: /about/
+  - title: "CV"
+    url: https://github.com/DevPika/devpika.github.io/blob/master/assets/Ayaskant_Panigrahi_CV.pdf
 
 sidebar:
   - title: "Projects"
