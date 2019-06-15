@@ -16,9 +16,16 @@ feature_row:
     url: /projects/jigree-travel-companion/
     btn_label: "Read More"
     btn_class: "btn--info"
+  - image_path: /assets/images/redactio.png
+    alt: "Redactio.ml"
+    title: "Redactio.ml"
+    excerpt: "Automatic personal info redaction"
+    url: /projects/redactio-ml/
+    btn_label: "Read More"
+    btn_class: "btn--info"
 ---
   
 
-In this section, I list some projects that I've worked on. Be it course projects or personal ones, I've enjoyed working on all of them!
+In this section, I list some projects that I've worked on. Some of them are course projects, others are personal ones, but all are projects that I've enjoyed working on!
 
 {% include feature_row id="feature_row" %}
