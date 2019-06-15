@@ -14,7 +14,7 @@ You can find my CV [here][cv].
 ## Internship
 **Indian Institute of Technology, Guwahati** May 2019, ongoing (for 6 months)\\
 *At [Embedded Interactions Lab (EILab)][eilab] under Dr. Keyur Sorathia's mentorship*\\
-Related to Object selection in Virtual environments, using Oculus Rift CV1 and Leap Motion on Hardware side of things, and Unity3D on the software side.
+Related to Object selection in Virtual environments, using Oculus Rift CV1 and Leap Motion on the hardware side of things, and Unity3D with respective APIs on the software side.
 
 ## Education
 **Indian Institute of Information Technology, Jabalpur** July 2016 - May 2020 (expected)\\
