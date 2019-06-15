@@ -11,22 +11,27 @@ Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep t
 
 You can find my CV [here][cv].
 
+## Internship
+**Indian Institute of Technology, Guwahati** May 2019, ongoing (for 6 months)\\
+*At [Embedded Interactions Lab (EILab)][eilab] under Dr. Keyur Sorathia's mentorship*\\
+Related to Object selection in Virtual environments, using Oculus Rift CV1 and Leap Motion on Hardware side of things, and Unity3D on the software side.
+
 ## Education
 **Indian Institute of Information Technology, Jabalpur** July 2016 - May 2020 (expected)\\
 *Bachelor of Technology, Computer Science & Engineering*\\
-GPA: 8.2/10
+GPA: 8.3/10 (6th Semester)
 
 ### Test scores
 GRE General Test: 332/340 (Q – 168, V – 164, AW – 4) 
 
 ### Relevant courses
 
-* Interface Design ( *Jan 2019, ongoing* )
-* Machine Learning ( *Jan 2019, ongoing* )
-* Image Processing ( *Jan 2019, ongoing* )
+* Machine Learning ( *Jan - Apr 2019* )
+* Image Processing ( *Jan - Apr 2019* )
 * Introduction to R Software ( *Aug - Nov 2018* )
 
 
 [gh]: https://github.com/DevPika
 [be]: https://behance.net/ayaskant
 [cv]: https://github.com/DevPika/devpika.github.io/blob/master/assets/Ayaskant_Panigrahi_CV.pdf
+[eilab]: http://embeddedinteractions.com/
