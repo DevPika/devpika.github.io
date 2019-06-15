@@ -14,6 +14,8 @@ sidebar:
         url: /projects/recyclotron-5000/
       - title: "Jigree: A Travel Companion"
         url: /projects/jigree-travel-companion/
+      - title: "Redactio.ml"
+        url: /projects/redactio-ml/
 
   - title: "About"
     url: /about/
