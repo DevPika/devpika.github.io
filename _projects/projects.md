@@ -4,7 +4,7 @@ permalink: /projects/
 feature_row:
   - image_path: /assets/images/rift-leapmotion.jpg
     alt: "Oculus Rift with Leap Motion"
-    title: "[WIP] Look Ma, virtual hands!"
+    title: "(WIP) Look Ma, virtual hands!"
     excerpt: "VR HCI Experiments with Oculus Rift and Leap Motion"
     url: /projects/vr-hci/
     btn_label: "Read More"
