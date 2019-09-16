@@ -2,6 +2,13 @@
 title: Projects
 permalink: /projects/
 feature_row:
+  - image_path: /assets/images/rift-leapmotion.jpg
+    alt: "Oculus Rift with Leap Motion"
+    title: "[WIP] Look Ma, virtual hands!"
+    excerpt: "VR HCI Experiments with Oculus Rift and Leap Motion"
+    url: /projects/vr-hci/
+    btn_label: "Read More"
+    btn_class: "btn--info"
   - image_path: /assets/images/recyclotron5000.png
     alt: "Recyclotron 5000"
     title: "Recyclotron 5000"
