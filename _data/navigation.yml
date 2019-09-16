@@ -10,6 +10,8 @@ sidebar:
   - title: "Projects"
     url: /projects/
     children:
+      - title: "(WIP) Look Ma, virtual hands!"
+        url: /projects/vr-hci/
       - title: "Recyclotron 5000"
         url: /projects/recyclotron-5000/
       - title: "Jigree: A Travel Companion"
