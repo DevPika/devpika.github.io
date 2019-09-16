@@ -12,9 +12,11 @@ Our focus was on providing a minimalist UI for the input area, where the user ha
 
 We have combined IBM Natural Language Understanding (NLU) with a custom trained model using IBM Watson Knowledge Studio (WKS) to find these fields in unstructered text. We achieve good results by using Dictionary based and Rule(Regex) based model for annotation and training custom model.
 
-Please visit the project repository for more screenshots and the source!
+Please visit the project website to see the live version or the repository for more screenshots and the source!
 
 Explore:
+* [Project's website][project-website]
 * [Project's Github repo][project-github-repo]
 
+[project-website]: https://redactio.herokuapp.com/
 [project-github-repo]: https://github.com/amhndu/Hackathon2019
