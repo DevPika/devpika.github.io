@@ -9,6 +9,13 @@ feature_row:
     url: /projects/vr-hci/
     btn_label: "Read More"
     btn_class: "btn--info"
+  - image_path: /assets/images/ozchi-sdc-thumbnail.png
+    alt: "OzCHI sticky note"
+    title: "OzCHI 2019 Student Design Challenge"
+    excerpt: "Building community resilience against Mumbai floods"
+    url: /projects/ozchi-sdc/
+    btn_label: "Read More"
+    btn_class: "btn--info"
   - image_path: /assets/images/recyclotron5000.png
     alt: "Recyclotron 5000"
     title: "Recyclotron 5000"

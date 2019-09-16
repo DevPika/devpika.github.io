@@ -12,6 +12,8 @@ sidebar:
     children:
       - title: "(WIP) Look Ma, virtual hands!"
         url: /projects/vr-hci/
+      - title: "OzCHI 2019 Student Design Challenge"
+        url: /projects/ozchi-sdc/
       - title: "Recyclotron 5000"
         url: /projects/recyclotron-5000/
       - title: "Jigree: A Travel Companion"
