@@ -16,6 +16,13 @@ feature_row:
     url: /projects/ozchi-sdc/
     btn_label: "Read More"
     btn_class: "btn--info"
+  - image_path: /assets/images/assistant-blind-thumbnail.jpg
+    alt: "Virtual Assistant for the Blind"
+    title: "Virtual Assistant for the Blind"
+    excerpt: "IoT based audio assistant"
+    url: /projects/assistant-blind/
+    btn_label: "Read More"
+    btn_class: "btn--info"    
   - image_path: /assets/images/recyclotron5000.png
     alt: "Recyclotron 5000"
     title: "Recyclotron 5000"
