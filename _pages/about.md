@@ -25,7 +25,8 @@ Related to Object selection in Virtual environments, using Oculus Rift CV1 and L
 GPA: 8.3/10 (6th Semester)
 
 ### Test scores
-GRE General Test: 332/340 (Q – 168, V – 164, AW – 4) 
+GRE General Test: 332/340 (Q – 168, V – 164, AW – 4)\\
+TOEFL : 108/120 (R 28, L 30, S 23, W 27)
 
 ### Relevant courses
 
