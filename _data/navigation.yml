@@ -10,17 +10,17 @@ sidebar:
   - title: "Projects"
     url: /projects/
     children:
-      - title: "(WIP) Look Ma, virtual hands!"
+      - title: "★ (WIP) Look Ma, virtual hands!"
         url: /projects/vr-hci/
-      - title: "OzCHI 2019 Student Design Challenge"
+      - title: "★ OzCHI'19 24hr Challenge"
         url: /projects/ozchi-sdc/
-      - title: "Assistant for blind"
+      - title: "★ Assistant for blind"
         url: /projects/assistant-blind/
-      - title: "Recyclotron 5000"
+      - title: "★ Recyclotron 5000"
         url: /projects/recyclotron-5000/
-      - title: "Jigree: A Travel Companion"
+      - title: "★ Jigree: A Travel Companion"
         url: /projects/jigree-travel-companion/
-      - title: "Redactio.ml"
+      - title: "★ Redactio.ml"
         url: /projects/redactio-ml/
 
   - title: "About"
