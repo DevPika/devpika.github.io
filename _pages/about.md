@@ -14,6 +14,15 @@ Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep t
 
 You can find my CV [here][cv].
 
+Recent reads:
+* [Most recent edition of ACM Interactions](https://interactions.acm.org/)
+* [Designing Gestural Interfaces](https://dl.acm.org/citation.cfm?id=1496379) by Dan Saffer
+* [Brave NUI World](https://dl.acm.org/citation.cfm?id=1995309) by Wigdor and Wixon
+* [Speculative Everything](https://mitpress.mit.edu/books/speculative-everything) by Dunne and Raby
+* [The Last Lecture](https://www.cmu.edu/randyslecture/book/) by Randy Pausch
+
+Hit me up anytime to discuss about these!
+
 ## Internship
 **Indian Institute of Technology, Guwahati** May 2019, ongoing (for 6 months)\\
 *At [Embedded Interactions Lab (EILab)][eilab] under Dr. Keyur Sorathia's mentorship*\\
