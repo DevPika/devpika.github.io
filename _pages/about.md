@@ -3,6 +3,9 @@ title: About
 permalink: /about/
 ---
 
+> Any sufficiently advanced technology is indistinguishable from magic.
+> – Arthur C. Clarke
+
 I am an undergraduate student pursuing Bachelor in Technology in Computer Science and Engineering at Indian Institute of Information Technology, Design & Manufactuing (IIITDM), Jabalpur, India. I am always on the lookout for innovative ways of interacting with computers and their applications in various fields.
 
 When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
