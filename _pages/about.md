@@ -15,7 +15,7 @@ Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep t
 You can find my CV [here][cv].
 
 Recent reads:
-* [Most recent edition of ACM Interactions](https://interactions.acm.org/)
+* [Latest edition of ACM Interactions](https://interactions.acm.org/)
 * [Designing Gestural Interfaces](https://dl.acm.org/citation.cfm?id=1496379) by Dan Saffer
 * [Brave NUI World](https://dl.acm.org/citation.cfm?id=1995309) by Wigdor and Wixon
 * [Speculative Everything](https://mitpress.mit.edu/books/speculative-everything) by Dunne and Raby
