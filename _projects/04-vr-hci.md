@@ -5,6 +5,10 @@ permalink: /projects/vr-hci/
 
 Controller-less tracking leads to freedom of performing intuitive gestures to interact with computers. Leap Motion does just that: it is special IR based tracking solution. Combine that with an Oculus Rift and you are suddenly zipping through virtual space with shiny virtual hand avatars! I'm working on implementation of some novel virtual object selection techniques and would be researching on their efficacy in comparison to more classic techniques like Raycasting. This is part of research work as part of my six month internship at Embedded Interaction Lab, IIT Guwahati under the guidance of Dr. Keyur Sorathia. Conducting experiments using Unity? Check out [this awesome Unity package][UXF] called Unity Experiments Framework by the folks at Immersive Cognition Group, University of Leeds!
 
+{% include video id="1bTKlotN2KsM3lo2Oo_EJG1S244dVpfzY" provider="google-drive" %}
+Video demonstrating the test environment, participant tries out the "pinch" gesture.\\
+
+
 ![Unity Experiments Framework](/assets/images/vr-hci-uxf.jpg)
 ![Raycasting in the test environment](/assets/images/vr-hci-raycasting.jpg)
 
