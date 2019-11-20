@@ -8,6 +8,8 @@ permalink: /about/
 
 I am an undergraduate student pursuing Bachelor in Technology in Computer Science and Engineering at Indian Institute of Information Technology, Design & Manufactuing (IIITDM), Jabalpur, India. I am always on the lookout for innovative ways of interacting with computers and their applications in various fields.
 
+My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. The underlying motivation in my work is to create seemless interactions between humans and computers. Read more about my research [here](/research/).
+
 When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
 
 Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep track of my latest projects!
@@ -24,7 +26,7 @@ Recent reads:
 Hit me up anytime to discuss about these!
 
 ## Internship
-**Indian Institute of Technology, Guwahati** May 2019, ongoing (for 6 months)\\
+**Indian Institute of Technology, Guwahati** May 2019 - Novemeber 2019\\
 *At [Embedded Interactions Lab (EILab)][eilab] under Dr. Keyur Sorathia's mentorship*\\
 Related to Object selection in Virtual environments, using Oculus Rift CV1 and Leap Motion on the hardware side of things, and Unity3D with respective APIs on the software side.
 
