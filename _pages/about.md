@@ -8,7 +8,7 @@ permalink: /about/
 
 I am an undergraduate student pursuing Bachelor in Technology in Computer Science and Engineering at Indian Institute of Information Technology, Design & Manufactuing (IIITDM), Jabalpur, India. I am always on the lookout for innovative ways of interacting with computers and their applications in various fields.
 
-My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. The underlying motivation in my work is to create seemless interactions between humans and computers. Read more about my research [here](/research/).
+My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. The underlying motivation in my work is to create seamless interactions between humans and computers. Read more about my research [here](/research/).
 
 When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
 
