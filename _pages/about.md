@@ -17,6 +17,7 @@ Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep t
 You can find my CV [here][cv].
 
 Recent reads:
+* [3D User Interfaces: Theory and Practice, 2nd ed.](https://www.amazon.com/3D-User-Interfaces-Practice-Usability/dp/0134034325)
 * [Latest edition of ACM Interactions](https://interactions.acm.org/)
 * [Designing Gestural Interfaces](https://dl.acm.org/citation.cfm?id=1496379) by Dan Saffer
 * [Brave NUI World](https://dl.acm.org/citation.cfm?id=1995309) by Wigdor and Wixon
