@@ -1,5 +1,5 @@
 ---
-title: (WIP) Look Ma, virtual hands!
+title: Look Ma, virtual hands!
 permalink: /projects/vr-hci/
 ---
 
