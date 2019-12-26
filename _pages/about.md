@@ -42,7 +42,7 @@ TOEFL : 108/120 (R 28, L 30, S 23, W 27)
 
 ### Relevant courses
 
-* [Human-Centered Design: an Introduction][coursera] (online on Coursera offered by UCSD, ongoing)
+* [Human-Centered Design: an Introduction][coursera] ( *Nov - Dec 2019*, online on Coursera offered by UCSD )
 * Machine Learning ( *Jan - Apr 2019* )
 * Image Processing ( *Jan - Apr 2019* )
 * Introduction to R Software ( *Aug - Nov 2018* )
@@ -52,4 +52,4 @@ TOEFL : 108/120 (R 28, L 30, S 23, W 27)
 [be]: https://behance.net/ayaskant
 [cv]: https://github.com/DevPika/devpika.github.io/blob/master/assets/Ayaskant_Panigrahi_CV.pdf
 [eilab]: http://embeddedinteractions.com/
-[coursera]: https://www.coursera.org/learn/human-computer-interaction
+[coursera]: https://www.coursera.org/account/accomplishments/verify/T2TAEGQN9L2G
