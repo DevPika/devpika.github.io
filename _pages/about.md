@@ -10,7 +10,7 @@ I am an undergraduate student pursuing Bachelor in Technology in Computer Scienc
 
 My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. The underlying motivation in my work is to create seamless interactions between humans and computers. Read more about my research [here](/research/).
 
-When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
+I am a part of the [institute's game design and development group][gamedev], having participated and organized events like gamejams and workshops over the past few years. When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
 
 Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep track of my latest projects!
 
@@ -53,3 +53,5 @@ TOEFL : 108/120 (R 28, L 30, S 23, W 27)
 [cv]: https://github.com/DevPika/devpika.github.io/blob/master/assets/Ayaskant_Panigrahi_CV.pdf
 [eilab]: http://embeddedinteractions.com/
 [coursera]: https://www.coursera.org/account/accomplishments/verify/T2TAEGQN9L2G
+[gamedev]: https://grolibur.wordpress.com/
+
