@@ -7,7 +7,7 @@ permalink: /research/
 
 My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. In all of my recent work, the underlying motivation is to create seamless interactions between humans and computers. Here I list some work that has helped me gain research exposure.
 
-### Research at Embedded Interaction Lab, IIT Guwahati (May – Nov 2019)
+### Research at [Embedded Interaction Lab](http://embeddedinteractions.com/), IIT Guwahati (May – Nov 2019)
 Six-month research internship under Dr. Keyur Sorathia’s guidance. My primary role in the lab was to aid in the development of virtual environments for user studies and contribute as an HCI researcher. The two projects I worked on:
 * Comparison of different types of feedbacks for a bespoke tactile controller for non-visual exploration of virtual space.
   * Publication: Borah, P., **Panigrahi, A.**, Sorathia K. TMOVE: Multimodal Feedback Actuator for Non-visual Exploration of Virtual Lines. Accepted in *Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (ACM TEI 2020)*.
