@@ -34,7 +34,7 @@ Related to Object selection in Virtual environments, using Oculus Rift CV1 and L
 ## Education
 **Indian Institute of Information Technology, Jabalpur** July 2016 - May 2020 (expected)\\
 *Bachelor of Technology, Computer Science & Engineering*\\
-GPA: 8.3/10 (6th Semester)
+GPA: 8.4/10 (7th Semester)
 
 ### Test scores
 GRE General Test: 332/340 (Q – 168, V – 164, AW – 4)\\
