@@ -2,19 +2,20 @@
 title: Research
 permalink: /research/
 ---
+**Update (Nov 2020):** Paper on gesture-based selection method published in **ACM SUI 2020**
 
-**Update (Feb 2020):** Paper on tactile feedback published in **ACM TEI 2020**, WIP track
+**Update (Feb 2020):** Paper on tactile feedback published in **ACM TEI 2020**
 
 My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. In all of my recent work, the underlying motivation is to create seamless interactions between humans and computers. Here I list some work that has helped me gain research exposure.
 
 ### Research at [Embedded Interaction Lab](http://embeddedinteractions.com/), IIT Guwahati (May – Nov 2019)
 Six-month research internship under Dr. Keyur Sorathia’s guidance. My primary role in the lab was to aid in the development of virtual environments for user studies and contribute as an HCI researcher. The two projects I worked on:
 * Comparison of different types of feedbacks for a bespoke tactile controller for non-visual exploration of virtual space.
-  * Publication: Pranjal Protim Borah, **Ayaskant Panigrahi**, and Keyur Sorathia. 2020. TMOVE: Multimodal Feedback Actuator for Non-visual Exploration of Virtual Lines. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI ’20). Association for Computing Machinery, New York, NY, USA, 603–610. DOI:https://doi.org/10.1145/3374920.3374994.
+  * Publication: Pranjal Protim Borah, **Ayaskant Panigrahi**, and Keyur Sorathia. 2020. TMOVE: Multimodal Feedback Actuator for Non-visual Exploration of Virtual Lines. In Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI ’20). Association for Computing Machinery, New York, NY, USA, 603–610. DOI: [10.1145/3374920.3374994](https://doi.org/10.1145/3374920.3374994).
 
 * Comparison of different gesture based selection methods for immersive virtual environments. Developed Unity3D application (with C# scripting) to prototype and test various free hand gesture based selection techniques.
-  * Publication: Bhowmick, S., **Panigrahi, A.**, Sorathia K. Comparative Study of Point and Tap User-Centered Gesture for Object Selection at Arm’s Length in Highly Dense Environments. Manuscript to be submitted.
-
+  * Publication: Shimmila Bhowmick, **Ayaskant Panigrahi**, Pranjal Borah, Pratul Kalita, and Keyur Sorathia. 2020. Investigating the Effectiveness of Locked Dwell Time-based Point and Tap Gesture for Selection of Nail-sized Objects in Dense Virtual Environment. In Symposium on Spatial User Interaction (SUI '20). Association for Computing Machinery, New York, NY, USA, Article 26, 1–2. DOI: [10.1145/3374920.3374994](https://doi.org/10.1145/3385959.3422701)
+  
 ### OzCHI 24-hr Student Design/Research Challenge (Aug 2019)
 [My team, Team Outeraction](/projects/ozchi-sdc/), featured in the top five amongst all participating teams worldwide in [OzCHI SDC'19](http://ozchi2019.visemex.org/wp/participate/ozchi-student-design-challenge-sdc/) as part of the *31st Australian Conference on Human-Computer-Interaction (OzCHI'19)*.
 
