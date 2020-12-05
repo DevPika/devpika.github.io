@@ -1,5 +1,8 @@
 ---
 title: Look Ma, virtual hands!
+excerpt: "HCI Experiments with Oculus Rift and Leap Motion"
+header:
+  teaser: /assets/images/rift-leapmotion.jpg
 permalink: /projects/vr-hci/
 ---
 

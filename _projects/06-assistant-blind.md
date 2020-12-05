@@ -1,5 +1,8 @@
 ---
 title: Virtual Assistant for the Blind
+excerpt: "IoT based audio assistant"
+header:
+  teaser: assets/images/assistant-blind-thumbnail.jpg
 permalink: /projects/assistant-blind/
 ---
 

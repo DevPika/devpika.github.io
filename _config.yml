@@ -295,6 +295,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -326,6 +330,21 @@ defaults:
       classes: wide
 
   # _projects
+  # - scope:
+  #     path: ""
+  #     type: projects
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: false
+  #     comments: false # true
+  #     share: false
+  #     related: false
+  #     sidebar:
+  #       nav: "sidebar"
+  #     classes: wide
+
+  # _portfolio
   - scope:
       path: ""
       type: projects

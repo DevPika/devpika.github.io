@@ -1,5 +1,8 @@
 ---
-title: Jigree - A Travel Companion for Jabalpur Tourism
+title: Jigree
+excerpt: "A Travel Companion for tourists visiting Jabalpur"
+header:
+  teaser: /assets/images/jigree.png
 permalink: /projects/jigree-travel-companion/
 ---
 

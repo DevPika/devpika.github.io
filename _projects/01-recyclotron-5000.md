@@ -1,5 +1,8 @@
 ---
 title: Recyclotron 5000
+excerpt: "IoT Smart Bin for gamifying Recyclable waste collection"
+header:
+  teaser: /assets/images/recyclotron5000.png
 permalink: /projects/recyclotron-5000/
 ---
 

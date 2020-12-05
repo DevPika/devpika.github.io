@@ -1,5 +1,8 @@
 ---
-title: Redactio.ml - Automatic personal info redaction 
+title: Redactio.ml
+excerpt: "Automatic personal info redaction"
+header:
+  teaser: assets/images/redactio.png
 permalink: /projects/redactio-ml/
 ---
 

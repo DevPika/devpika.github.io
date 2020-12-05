@@ -1,5 +1,8 @@
 ---
 title: OzCHI 2019 Student Design Challenge
+excerpt: "Building community resilience against Mumbai floods"
+header:
+  teaser: /assets/images/ozchi-sdc-thumbnail.png
 permalink: /projects/ozchi-sdc/
 ---
 
