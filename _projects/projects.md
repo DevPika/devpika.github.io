@@ -2,6 +2,13 @@
 title: Projects
 permalink: /projects/
 feature_row:
+  - image_path: /assets/images/3dui-thumb.png
+    alt: "Unity with Cardboard"
+    title: "3D interaction techniques in Unity"
+    excerpt: "Fast and cheap VR prototyping using Unity and Cardboard viewers"
+    url: /projects/vr-3dui-course/
+    btn_label: "Read More"
+    btn_class: "btn--info"
   - image_path: /assets/images/rift-leapmotion.jpg
     alt: "Oculus Rift with Leap Motion"
     title: "Look Ma, virtual hands!"

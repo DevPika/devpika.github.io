@@ -14,6 +14,8 @@ sidebar:
   - title: "Projects"
     url: /projects/
     children:
+      - title: "★ 3D interaction techniques"
+        url: /projects/vr-3dui-course/
       - title: "★ Look Ma, virtual hands!"
         url: /projects/vr-hci/
       - title: "★ OzCHI'19 24hr Challenge"
