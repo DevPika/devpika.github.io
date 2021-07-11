@@ -12,6 +12,11 @@ feature_row:
     title: "Look Ma, virtual hands!"
     excerpt: "HCI Experiments with Oculus Rift and Leap Motion"
     url: /projects/vr-hci/
+  - image_path: /assets/images/gamedev-iiitdmj-thumb.jpg
+    alt: "Give Me Strength game for Ludum Dare"
+    title: "IIITDMJ game development group"
+    excerpt: "Fun times with gamejams and workshops!"
+    url: /projects/gamedev-iiitdmj/
   - image_path: /assets/images/ozchi-sdc-thumbnail.png
     alt: "OzCHI sticky note"
     title: "OzCHI 2019 Student Design Challenge"
