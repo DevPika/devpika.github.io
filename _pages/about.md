@@ -6,11 +6,11 @@ permalink: /about/
 > Any sufficiently advanced technology is indistinguishable from magic.\\
 > – Arthur C. Clarke
 
-I am an undergraduate student pursuing Bachelor in Technology in Computer Science and Engineering at Indian Institute of Information Technology, Design & Manufactuing (IIITDM), Jabalpur, India. I am always on the lookout for innovative ways of interacting with computers and their applications in various fields.
+I am a graduate student pursuing MSc. in Interactive Arts & Technology at Simon Fraser Univeristy, Canada. I am a member of the [VVISE research lab][vvise] directed by Prof. Wolfgang Stuerzlinger. I am always on the lookout for innovative ways of interacting with computers and their applications in various fields.
 
 My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. The underlying motivation in my work is to create seamless interactions between humans and computers. Read more about my research [here](/research/).
 
-I am a part of the [institute's game design and development group][gamedev], having participated and organized events like gamejams and workshops over the past few years. When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
+I was a part of the [game design and development group][gamedev] at my undergraduate institute, participating in and organizing events like gamejams and Unity workshops over the past few years. When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
 
 Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep track of my latest projects!
 
@@ -24,7 +24,7 @@ Recent reads:
 * [Speculative Everything](https://mitpress.mit.edu/books/speculative-everything) by Dunne and Raby
 * [The Last Lecture](https://www.cmu.edu/randyslecture/book/) by Randy Pausch
 
-Hit me up anytime to discuss about these!
+Ping me anytime to discuss about these!
 
 ## Internship
 **Indian Institute of Technology, Guwahati** May 2019 - Novemeber 2019\\
@@ -32,9 +32,13 @@ Hit me up anytime to discuss about these!
 Related to Object selection in Virtual environments, using Oculus Rift CV1 and Leap Motion on the hardware side of things, and Unity3D with respective APIs on the software side.
 
 ## Education
-**Indian Institute of Information Technology, Jabalpur** July 2016 - May 2020 (expected)\\
+**Simon Fraser University, Canada** January 2021, ongoing\\
+*Master of Science, Interactive Arts and Technology*\\
+GPA: 4.22/4.33 (Term 1)\\
+\\
+**Indian Institute of Information Technology, Jabalpur, India** July 2016 - May 2020\\
 *Bachelor of Technology, Computer Science & Engineering*\\
-GPA: 8.4/10 (7th Semester)
+GPA: 8.6/10
 
 ### Test scores
 GRE General Test: 332/340 (Q – 168, V – 164, AW – 4)\\
@@ -48,10 +52,11 @@ TOEFL : 108/120 (R 28, L 30, S 23, W 27)
 * Introduction to R Software ( *Aug - Nov 2018* )
 
 
+[vvise]: https://vvise.iat.sfu.ca/
 [gh]: https://github.com/DevPika
 [be]: https://behance.net/ayaskant
 [cv]: https://github.com/DevPika/devpika.github.io/blob/master/assets/Ayaskant_Panigrahi_CV.pdf
 [eilab]: http://embeddedinteractions.com/
 [coursera]: https://www.coursera.org/account/accomplishments/verify/T2TAEGQN9L2G
-[gamedev]: https://grolibur.wordpress.com/
+[gamedev]: /projects/gamedev-iiitdmj
 
