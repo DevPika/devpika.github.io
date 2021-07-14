@@ -17,6 +17,11 @@ feature_row:
     title: "IIITDMJ game development group"
     excerpt: "Fun times with gamejams and workshops!"
     url: /projects/gamedev-iiitdmj/
+  - image_path: /assets/images/ive-smoke.jpg
+    alt: "Smoke segmentation"
+    title: "Smoke segmentation using Deep Learning"
+    excerpt: "Using state-of-the-art algorithms like Mask RCNN"
+    url: /projects/ive-smoke/
   - image_path: /assets/images/ozchi-sdc-thumbnail.png
     alt: "OzCHI sticky note"
     title: "OzCHI 2019 Student Design Challenge"
