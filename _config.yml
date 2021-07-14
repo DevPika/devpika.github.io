@@ -105,8 +105,8 @@ analytics:
 author:
   name             : "Ayaskant Panigrahi"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hopelessly in love with clean code and unobtrusive design!"
-  location         : "Jabalpur, India"
+  bio              : "Hopelessly in love with clean code and unobtrusive design! •	Masters student at SIAT, Simon Fraser University, Canada"
+  location         : "Hyderabad, India"
   email            : "ayaskant.panigrahi@gmail.com"
   links:
     - label: "GitHub"
