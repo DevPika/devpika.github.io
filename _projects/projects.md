@@ -17,6 +17,11 @@ feature_row:
     title: "Creative doodles with p5js"
     excerpt: "Flexing the creative muscle"
     url: /projects/creative-doodles-p5js/
+  - image_path: /assets/images/memento-flori.png
+    alt: "memento flori"
+    title: "Memento Flori - a speculative design project"
+    excerpt: "Imagining the role of VR in memorializing and grieving"
+    url: /projects/memento-flori-tivoli/
   - image_path: /assets/images/gamedev-iiitdmj-thumb.jpg
     alt: "Give Me Strength game for Ludum Dare"
     title: "IIITDMJ game development group"
