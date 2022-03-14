@@ -12,7 +12,7 @@ feature_row:
     title: "Look Ma, virtual hands!"
     excerpt: "HCI Experiments with Oculus Rift and Leap Motion"
     url: /projects/vr-hci/
-  - image_path: /assets/images/hanko.png
+  - image_path: /assets/images/p5js-thumb.png
     alt: "p5js creative doodles"
     title: "Creative doodles with p5js"
     excerpt: "Flexing the creative muscle"
