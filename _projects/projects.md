@@ -21,7 +21,7 @@ feature_row:
     alt: "memento flori"
     title: "Memento Flori - a speculative design project"
     excerpt: "Imagining the role of VR in memorializing and grieving"
-    url: /projects/memento-flori-tivoli/
+    url: /projects/memento-flori-virtual-funeral/
   - image_path: /assets/images/gamedev-iiitdmj-thumb.jpg
     alt: "Give Me Strength game for Ludum Dare"
     title: "IIITDMJ game development group"
