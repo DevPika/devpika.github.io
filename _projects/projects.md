@@ -2,16 +2,16 @@
 title: Projects
 permalink: /projects/
 feature_row:
-  - image_path: /assets/images/3dui-thumb.png
-    alt: "Unity with Cardboard"
-    title: "3D interaction techniques in Unity"
-    excerpt: "Fast and cheap VR prototyping using Unity and Cardboard viewers"
-    url: /projects/vr-3dui-course/
   - image_path: /assets/images/rift-leapmotion.jpg
     alt: "Oculus Rift with Leap Motion"
     title: "Look Ma, virtual hands!"
     excerpt: "HCI Experiments with Oculus Rift and Leap Motion"
     url: /projects/vr-hci/
+  - image_path: /assets/images/playvoxel-thumb.jpg
+    alt: "Playvoxel game playcanvas"
+    title: "Playvoxel"
+    excerpt: "A VR voxel drawing tool"
+    url: /projects/playvoxel-webxr/
   - image_path: /assets/images/webxr-thumb.png
     alt: "webxr projects aframe"
     title: "Experiments with WebXR and aframe"
@@ -27,6 +27,11 @@ feature_row:
     title: "Memento Flori - a speculative design project"
     excerpt: "Imagining the role of VR in memorializing and grieving"
     url: /projects/memento-flori-virtual-funeral/
+  - image_path: /assets/images/3dui-thumb.png
+    alt: "Unity with Cardboard"
+    title: "3D interaction techniques in Unity"
+    excerpt: "Fast and cheap VR prototyping using Unity and Cardboard viewers"
+    url: /projects/vr-3dui-course/
   - image_path: /assets/images/gamedev-iiitdmj-thumb.jpg
     alt: "Give Me Strength game for Ludum Dare"
     title: "IIITDMJ game development group"
