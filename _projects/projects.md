@@ -12,7 +12,7 @@ feature_row:
     title: "Look Ma, virtual hands!"
     excerpt: "HCI Experiments with Oculus Rift and Leap Motion"
     url: /projects/vr-hci/
-- image_path: /assets/images/webxr-thumb.png
+  - image_path: /assets/images/webxr-thumb.png
     alt: "webxr projects aframe"
     title: "Experiments with WebXR and aframe"
     excerpt: "Creating XR experiences that can run in the browser"
