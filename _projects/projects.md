@@ -21,7 +21,11 @@ feature_row:
     alt: "p5js creative doodles"
     title: "Creative doodles with p5js"
     excerpt: "Flexing the creative muscle"
-    url: /projects/creative-doodles-p5js/
+  - image_path: /assets/images/cubism-thumb.png
+    alt: "Cubism vr editor"
+    title: "Custom Puzzle Editor for Cubism"
+    excerpt: "Make your custom levels for the popular VR game!"
+    url: /projects/cubism-editor/
   - image_path: /assets/images/memento-flori.png
     alt: "memento flori"
     title: "Memento Flori - a speculative design project"
