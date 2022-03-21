@@ -21,6 +21,7 @@ feature_row:
     alt: "p5js creative doodles"
     title: "Creative doodles with p5js"
     excerpt: "Flexing the creative muscle"
+    url: /projects/creative-doodles-p5js/
   - image_path: /assets/images/cubism-thumb.png
     alt: "Cubism vr editor"
     title: "Custom Puzzle Editor for Cubism"
