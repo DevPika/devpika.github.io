@@ -4,7 +4,7 @@ permalink: /projects/cubism-editor/
 ---
 
 
-![Cubism Editor Screenshot](https://github.com/DevPika/cubismvr-level-editor/blob/master/Images/Screenshot1.png)
+![Cubism Editor Screenshot](https://raw.githubusercontent.com/DevPika/cubismvr-level-editor/master/Images/Screenshot1.png)
 
 
 I created a simple puzzle editor for [Cubism VR][game] in Unity! Using this, you can create custom levels for the game, which are saved in the JSON format expected by the game. Thanks to the creator of the game, Thomas Van Bouwel, for the special mention on the official modding repository for Cubism on GitHub!
