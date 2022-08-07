@@ -1,6 +1,8 @@
 ---
 title: Redactio.ml - Automatic personal info redaction 
 permalink: /projects/redactio-ml/
+subtitle: Automatic personal info redaction
+image: /assets/images/redactio.png
 ---
 
 Redactio.ml, a solution developed during the IBM 24-hr Hackathon organised at IIITDM Jabalpur. It allows you to anonymize your data by automatically detecting fields that could be personal information and bringing them to your notice before redaction. The fields identified include: Name, Gender, govt. IDs like Aadhaar, PAN, and also bank details like Credit/Debit card numbers and Bank account number. Companies spend a lot in maintaining compliance with policies like GDPR, since experts would have to manually delete personal information from chats and other interactions with their customers for both internal and external purposes. Our solution would be a boon to them. It would also be useful for Complaint Systems online forums, automating the process done by moderators.

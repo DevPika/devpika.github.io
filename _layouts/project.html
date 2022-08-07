@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-3">
+        <figure class="image is-256x256">
+            <img src="{{ page.image }}" />
+        </figure>
+    </div>
+
+    <div class="column is-9">
+        <p class="title is-3">{{ page.title }}</p>
+        <p class="subtitle is-3">{{ page.subtitle }}</p>        
+    </div>
+
+    <div class="column is-12">
+        <div class="content custom-text-size">
+            {{ content }}
+        </div>
+    </div>
+</div>

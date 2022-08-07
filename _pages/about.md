@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+layout: page
 ---
 
 > Any sufficiently advanced technology is indistinguishable from magic.\\

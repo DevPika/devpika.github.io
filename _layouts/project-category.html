@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="columns is-multiline">
+  <div class="column is-12 content custom-text-size">
+    <h1 class="title is-size-2">{{ page.title }}</h1>
+    {{ page.content }}
+  </div>
+
+  {% assign sorted_projects = site.projects | sort:page.sort | reverse %}
+
+  {% for project in sorted_projects %}
+  <div class="column is-4-desktop is-4-tablet">
+
+    <a href="{{ project.url | relative_url }}">
+
+      <div class="card">
+
+        {% if project.image %}
+        <div class="card-image">
+          <figure class="image is-square">
+            <img class="grayscale" src="{{ project.image }}" alt="{{ project.title }}" />
+          </figure>
+        </div>
+        {% endif %}
+        <div class="card-content">
+
+          <p class="title is-4">{{ project.title }}</h2>
+          <p class="subtitle is-6">{{ project.subtitle }}</p>  
+        </div>
+      </div>
+
+    </a>
+
+  </div>
+{% endfor %}
+</div>

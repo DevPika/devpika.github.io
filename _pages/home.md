@@ -1,6 +1,7 @@
 ---
 title: Home
 permalink: /
+layout: page
 ---
 
 Welcome to my personal site! Here you can find [some of the exciting projects](/projects/) and [research work](/research/) that I am involved with. You can also find out [more about me](/about/).

@@ -1,6 +1,8 @@
 ---
 title: Look Ma, virtual hands!
 permalink: /projects/vr-hci/
+subtitle: HCI Experiments with Oculus Rift and Leap Motion
+image: /assets/images/rift-leapmotion.jpg
 ---
 
 Controller-less tracking frees the body to perform intuitive gestures to interact with computers. Leap Motion does just that: it is a special IR based hand tracking solution. Throw in an Oculus Rift into the mix and you are suddenly zipping through virtual space with shiny virtual hand avatars! I was working on implementation of some novel virtual object selection techniques and researching their efficacy in comparison to classic techniques like Raycasting. I was also researching the different feedback possibilities for a bespoke controller to enable non-visual access to virtual environments. These projects were a part of my six month internship at [Embedded Interaction Lab](http://embeddedinteractions.com/), IIT Guwahati under the guidance of Dr. Keyur Sorathia and PhD students of the lab, Pranjal Borah and Shimmila Bhowmick. We hope to have our work published in upcoming conferences like TEI'20 and IEEE VR'20. Find out more about my research and publications [here](/research/).
@@ -8,7 +10,7 @@ Controller-less tracking frees the body to perform intuitive gestures to interac
 Conducting experiments using Unity? Check out [this awesome Unity package][UXF] called Unity Experiments Framework by the folks at Immersive Cognition Group, University of Leeds!
 
 Video demonstrating the test environment, participant tries out the "pinch" selection method.
-{% include video id="3vGBSx921Xs" provider="youtube" %}
+{% include youtube.html video="3vGBSx921Xs" %}
 
 The Unity Experiments Framework provides an easy way to set participant details.
 ![Unity Experiments Framework](/assets/images/vr-hci-uxf.jpg)

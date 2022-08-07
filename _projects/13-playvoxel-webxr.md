@@ -1,9 +1,11 @@
 ---
 title: PlayVoxel - a voxel drawing tool
 permalink: /projects/playvoxel-webxr/
+subtitle: A VR voxel drawing tool
+image: /assets/images/playvoxel-thumb.jpg
 ---
 
-{% include video id="JoAd4Xl5FKQ" provider="youtube" %}
+{% include youtube.html video="JoAd4Xl5FKQ" %}
 
 Made using [PlayCanvas][playcanvas] and WebXR to be experienced on Oculus/Meta Quest 2. PlayVoxel is a voxel placing tool where you can be as creative as you would like! Features include the ability to change color of voxels placed using a custom UI, teleport around in the environment and undo placing of blocks. This was the runner-up entry into the [VR Challenge #1 hosted by Steampunk Digital][challenge]! Through this project, I sought to explore PlayCanvas as a platform for creating WebXR experiences. I also wanted to help people get started with VR in PlayCanvas by having a basic set of VR interactions like teleportation and snap turning to be used as a template. I cleaned up the code and [published a guide on the PlayCanvas forums][forum] after the challenge. I also rewrote all the scripts using TypeScript to get a understanding of how using it could benefit my web development productivity.
 

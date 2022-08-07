@@ -1,11 +1,13 @@
 ---
 title: Recyclotron 5000
 permalink: /projects/recyclotron-5000/
+subtitle: IoT Smart Bin for gamifying Recyclable waste collection
+image: /assets/images/recyclotron5000.png
 ---
 
 People in India are often hesitant to separate Recyclable waste and give it away to recycling plants. Even if they do, they might have to go through middlemen who may try to deceive them in terms of weight and price. This bin aims at eliminating all of the hassle by allowing (authenticated) users to put recyclable waste in the bin and providing them with incentives in the form of store credits, e-wallet balance etc.
 
-{% include video id="6qYvslSgx_M" provider="youtube" %}
+{% include youtube.html video="6qYvslSgx_M" %}
 
 The central script, which brings everything together, is designed to run on a Raspberry Pi Zero with all dependencies installed. See the [project website][project-website] for a full feature list, hardware requirements, circuit diagram and setup.
 

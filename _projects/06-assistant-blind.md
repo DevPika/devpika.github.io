@@ -1,6 +1,8 @@
 ---
 title: Virtual Assistant for the Blind
 permalink: /projects/assistant-blind/
+subtitle: IoT based audio assistant
+image: /assets/images/assistant-blind-thumbnail.jpg
 ---
 
 A mobile computer/IoT based solution for helping visually challenged people using latest advancements in Image Processing. The pain points of our target users were assessed. This was essential to make the overall design of the product more user friendly. Various interaction modalities were considered, and aural method was selected for conveying information about the current scene.

@@ -1,0 +1,11 @@
+- items:
+    - name: Home
+      link: /
+    - name: Projects
+      link: /projects/
+    - name: Research
+      link: /research/
+    - name: About
+      link: /about/
+    - name: Blog
+      link: /blog/

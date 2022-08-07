@@ -1,6 +1,8 @@
 ---
 title: Smoke segmentation using Deep Learning
 permalink: /projects/ive-smoke/
+subtitle: Using state-of-the-art algorithms like Mask RCNN
+image: /assets/images/ive-smoke.jpg
 ---
 
 Developed during the Computer Vision course under the guidance of Dr. Pritee Khanna at IVE Lab, IIITDMJ, this research project uses state-of-the-art deep learning algorithms like Mask RCNN for automatic segmentation of smoke regions in images.

@@ -1,6 +1,7 @@
 ---
 title: Research
 permalink: /research/
+layout: page
 ---
 **Update (Jan 2021):** I am now part of the **VVISE research group at Simon Fraser University** under the supervision of **Prof. Wolfgang Stuerzlinger**!
 

@@ -1,6 +1,8 @@
 ---
-title: Flexing the creative muscle with p5js
+title: Creative doodles with p5js
 permalink: /projects/creative-doodles-p5js/
+subtitle: Flexing the creative muscle
+image: /assets/images/p5js-thumb.png
 ---
 
 While most of these were created during the IAT 806 Interdisciplinary Design Approaches to Computing course, I enjoy making simple, creative doodles with p5js whenever I can! It is my way of exploring the wonderful world of creative / generative programming. See the entire Glitch playlist [here](https://glitch.com/@gameshire/p-5-js-doodles).

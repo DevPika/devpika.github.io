@@ -1,6 +1,8 @@
 ---
 title: Custom Puzzle Editor for Cubism
 permalink: /projects/cubism-editor/
+subtitle: Make your custom levels for the popular VR game!
+image: /assets/images/cubism-thumb.png
 ---
 
 
