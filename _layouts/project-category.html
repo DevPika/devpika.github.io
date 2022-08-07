@@ -27,7 +27,15 @@ layout: default
         <div class="card-content">
 
           <p class="title is-4">{{ project.title }}</h2>
-          <p class="subtitle is-6">{{ project.subtitle }}</p>  
+          <p class="subtitle is-6">{{ project.subtitle }}</p>
+          {% if project.tags %}
+            {% assign sorted_tags = project.tags | sort %}
+            {% for single_tag in sorted_tags %}
+                <span class="tag is-primary has-text-dark is-size-6 m-1">
+                    {{ single_tag }}
+                </span>
+            {% endfor %}
+          {% endif %}
         </div>
       </div>
 

@@ -12,7 +12,15 @@ layout: default
 
     <div class="column is-9">
         <p class="title is-3">{{ page.title }}</p>
-        <p class="subtitle is-3">{{ page.subtitle }}</p>        
+        <p class="subtitle is-3">{{ page.subtitle }}</p>
+        {% if page.tags %}
+            {% assign sorted_tags = page.tags | sort %}
+            {% for single_tag in sorted_tags %}
+                <span class="tag is-primary has-text-dark is-size-5 m-1">
+                    {{ single_tag }}
+                </span>
+            {% endfor %}
+        {% endif %}
     </div>
 
     <div class="column is-12">

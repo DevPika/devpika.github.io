@@ -10,14 +10,20 @@ layout: default
         {% include series.html %}
     {% endif %}
 
+    <div class="tags">
+      {% for tag in page.tags %}
+        <a href="/tags/#{{ tag }}">
+          <span class="tag is-primary has-text-dark is-size-5 m-1">
+            {{ tag }}
+          </span>
+        </a>
+      {% endfor %}
+    </div>
+
     {{ content }}
 </div>
 
-<div class="tags">
-    {% for tag in page.tags %}
-      {% include tag.html tag=tag %}
-    {% endfor %}
-</div>
+
 
 {% unless site.hide_share_buttons %}
 {% include share-buttons.html %}

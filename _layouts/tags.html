@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+<div class="content custom-text-size">
+    <a href="{{page.url}}/#{{tag[0]}}"><h1 class="title is-3" id="{{ tag[0] }}">#{{ tag[0] }}</h1></a>
+</div>
+
+{% assign posts = tag[1] | sort %}
+
+{% if posts != empty %}
+
+<div class="columns is-multiline">
+    {% for post in posts %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
+  
+{% endif %}
+
+{% endfor %}
