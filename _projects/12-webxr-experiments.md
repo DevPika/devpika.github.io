@@ -3,6 +3,7 @@ title: Experiments with WebXR
 permalink: /projects/webxr-experiments/
 subtitle: Creating XR experiences that can run in the browser
 image: /assets/images/webxr-thumb.png
+tags: ["WebXR", "VR"]
 ---
 
 I challenged myself to create VR experiences for WebXR using aframe. 

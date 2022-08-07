@@ -3,6 +3,7 @@ title: OzCHI 2019 Student Design Challenge
 permalink: /projects/ozchi-sdc/
 subtitle: Building community resilience against Mumbai floods
 image: /assets/images/ozchi-sdc-thumbnail.png
+tags: ["HCI", "Design"]
 ---
 
 **Update** (Oct. 28,  2019): Our team, Team Outeraction, has been specially mentioned as being among the top 5 out of all the teams participating internationally, after three tough rounds of expert panel reviews! This year's edition had attracted very high quality submissions, compared to the previous years.

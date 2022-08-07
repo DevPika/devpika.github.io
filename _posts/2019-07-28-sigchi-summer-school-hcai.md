@@ -3,6 +3,7 @@ layout: post
 title: "Designs for HCAI summer school"
 excerpt_separator: "<!--more-->"
 author: "Ayaskant Panigrahi"
+tags: ["Design", "HCI"]
 ---
 
 A small writeup on what went into designing the name tags, posters and standee for the SIGCHI-sponsored summer school on HCAI.

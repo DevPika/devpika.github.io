@@ -3,6 +3,7 @@ layout: post
 title: "【2 Oct'20】Google Cardboard in 2020"
 excerpt_separator: "<!--more-->"
 author: "Ayaskant Panigrahi"
+tags: ["Unity3D", "VR"]
 ---
 Setting up Unity 2019.4 for Google Cardboard development isn't as straightforward as I thought. 
 <!--more-->

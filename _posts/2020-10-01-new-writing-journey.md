@@ -3,6 +3,7 @@ layout: post
 title: "Embarking on a new writing journey!"
 excerpt_separator: "<!--more-->"
 author: "Ayaskant Panigrahi"
+tags: ["HCI"]
 ---
 This is the first in a series of articles that I plan to write over the next few months.
 <!--more-->
