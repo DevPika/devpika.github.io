@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Designs for HCAI summer school"
-excerpt_separator: "<!--more-->"
-author: "Ayaskant Panigrahi"
 tags: ["Design", "HCI"]
 ---
 
