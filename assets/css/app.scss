@@ -21,6 +21,20 @@ img.grayscale:hover {
   -webkit-filter: none;
   transition: 0.2s;
 }
+#bio-card {
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#background-video {
+  border-radius: 9999px 9999px 6px 6px;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  object-fit: cover;
+}
 
 .content.custom-text-size {
   @extend .is-size-5;

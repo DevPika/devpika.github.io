@@ -1,7 +1,11 @@
 {% assign author = site.author %}
 <!-- some comment -->
-<div class="card" style="border-radius: 9999px 9999px 6px 6px;" itemscope itemtype="https://schema.org/Person">
 
+<div id="bio-card" class="card" style="border-radius: 9999px 9999px 6px 6px;position:relative;" itemscope itemtype="https://schema.org/Person">
+  <!-- <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+    <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+  </video> -->
+  <img id="background-video" autoplay loop muted src="/assets/images/blog/glow.gif"></img>
   {% if author.avatar %}
   <a href="{{ author.home | default: '/' | absolute_url }}">
     <figure class="image p-3">
