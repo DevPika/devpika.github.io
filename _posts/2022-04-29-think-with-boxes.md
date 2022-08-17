@@ -2,6 +2,7 @@
 layout: post
 title: "[VR Challenge #2] think ̶o̶u̶t̶s̶i̶d̶e̶ with boxes"
 tags: ["WebXR", "VR", "VR Challenge"]
+image: "/assets/images/blog/think-boxes.png"
 ---
 My submission to VR challenge #2 (hosted by Steampunk Digital).
 <!--more-->

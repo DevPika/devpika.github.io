@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Experimenting with Babylon JS Node Shader Editor"
-tags: ["Creative Coding", "WebXR"]
+tags: ["Creative Coding", "Shaders"]
+image: "/assets/images/blog/bioluminescent-blob.png"
 ---
 Pleasantly surprised by how easy it is to pickup the node shader tool from Babylon JS
 <!--more-->

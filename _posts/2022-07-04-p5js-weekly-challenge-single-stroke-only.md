@@ -2,6 +2,7 @@
 layout: post
 title: "[p5js Weekly Challenge] Theme - Single Stroke Only"
 tags: ["p5js", "Creative Coding", "p5js Weekly Challenge"]
+image: "/assets/images/blog/hilbert.png"
 ---
 Perfect setup for the Hilbert Space filling curve!
 <!--more-->
