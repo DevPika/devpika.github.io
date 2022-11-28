@@ -11,19 +11,11 @@
     <p class="pagination-next" disabled >Next</p>
     {% endif %}
     <ul class="pagination-list">
-        {% for page in (1..paginator.total_pages) %}
-        <li>
-        </li>
+        {% for trail in paginator.page_trail %}
+            <li>
+                <a class="pagination-link {% if page.url == trail.path %}is-current{% endif %}" href="{{ trail.path | split: '/' | pop | join: '/' | append: '/' | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
+            </li>
         {% endfor %}
-        {% if paginator.page_trail %}
-        <ul class="pagination-list">
-            {% for trail in paginator.page_trail %}
-                <li>
-                    <a class="pagination-link {% if page.url == trail.path %}is-current{% endif %}" href="{{ trail.path | split: '/' | pop | join: '/' | append: '/' | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-        {% endif %}
     </ul>
 </nav>
 {% endif %}
