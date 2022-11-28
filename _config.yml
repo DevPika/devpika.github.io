@@ -166,6 +166,7 @@ defaults:
       path: ""
       type: "posts"
     values:
+      timeline-type: "Posts"
       author: "Ayaskant Panigrahi"
       layout: post
       excerpt_separator: <!--more-->
@@ -174,6 +175,7 @@ defaults:
       path: ""
       type: "projects"
     values:
+      timeline-type: "Projects"
       layout: project
 
 markdown: kramdown

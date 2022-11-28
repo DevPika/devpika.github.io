@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="content custom-text-size">
+    <h1 class="title is-size-2">{{ page.title }}</h1>
+    {{ content }}
+</div>
+<div class="columns is-multiline">
+    <div class="timeline column is-12" x-data="{ open: false, 'timelineType': 'Posts' }">
+        <div @click="() => {open = !open;}" class="dropdown timeline-header" x-bind:class="open ? 'is-active' : ''">
+            <div class="dropdown-trigger">
+              <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span x-text="timelineType"></span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <template x-for="typeitem in ['Posts', 'Projects']">
+                    <a class="dropdown-item" @click="timelineType = 'typeitem' " x-bind:class="timelineType === 'typeitem' ? 'is-active' : ''" x-text="typeitem" ></a>
+                </template>
+              </div>
+            </div>
+        </div>
+        {% for post in paginator.posts %}
+        {% include timeline-item.html %}
+        {% endfor %}
+    </div>
+    <div class="column is-12">
+        {% include pagination.html %}
+    </div>
+</div>

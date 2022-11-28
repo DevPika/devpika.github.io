@@ -1,0 +1,43 @@
+<a href="{{ site.baseurl }}{{ post.url }}">
+    <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+        <p class="heading is-size-6">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <div class="card">
+            <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                {% if post.image %}
+                <figure class="image is-64x64">
+                    <img src="{{ post.image }}" alt="{{ post.title }}">
+                </figure>
+                {% else %}
+                <figure class="image is-64x64">
+                    <img src="{% if site.favicon %} {{ site.favicon | relative_url }} {% else %} {{ site.baseurl }}/favicon.png {% endif %}" alt="{{ post.title }}">
+                </figure>
+                {% endif %}
+                </div>
+                <div class="media-content">
+                <p class="title is-4">{{ post.title}}</p>
+                <div class="subtitle">
+                {% if post.tags %}
+                    {% assign sorted_tags = post.tags | sort %}
+                    {% for single_tag in sorted_tags %}
+                        <span class="tag is-primary has-text-dark is-size-6">
+                            {{ single_tag }}
+                        </span>
+                    {% endfor %}
+                {% endif %}
+                </div>
+                </div>
+            </div>
+            {% if post.timeline-type != "Projects" %}
+            <div class="content is-size-5">
+                {{ post.excerpt }}
+            </div>
+            {% endif %}
+            </div>
+        </div>
+        </div>
+    </div>
+</a>

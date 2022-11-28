@@ -19,7 +19,7 @@
         <ul class="pagination-list">
             {% for trail in paginator.page_trail %}
                 <li>
-                    <a class="pagination-link {% if page.url == trail.path %}is-current{% endif %}" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' | split: '/' | pop | join: '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
+                    <a class="pagination-link {% if page.url == trail.path %}is-current{% endif %}" href="{{ trail.path | split: '/' | pop | join: '/' | append: '/' | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
                 </li>
             {% endfor %}
         </ul>
