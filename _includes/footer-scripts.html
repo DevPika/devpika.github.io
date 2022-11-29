@@ -1,7 +1,6 @@
 <script>
     window.addEventListener("load", () => {
         const imgs = document.querySelectorAll("img.grayscale");
-        console.log(imgs);
         imgs.forEach(element => {
             element.addEventListener('touchstart', function(e) {
                 element.classList.toggle('hover_effect');

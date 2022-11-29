@@ -47,39 +47,39 @@ layout: default
             {% endfor %}
             window._posts = _posts;
         </script>
-        <template x-for="(item, index) in window._posts" x-init="$watch('timelineType', value => {console.log(value); numPostsToLoad = 15; numPostsLoaded = 0; }); numPostsToLoad = 15; numPostsLoaded = 0; ">
+        <template x-for="(item, index) in window._posts" x-init="$watch('timelineType', value => {numPostsToLoad = 15; numPostsLoaded = 0; }); numPostsToLoad = 15; numPostsLoaded = 0; ">
             <template x-if = "timelineType === item.type && (numPostsLoaded < numPostsToLoad)">
-            <a :href="item.url">
-                <div class="timeline-item" x-init="numPostsLoaded ++; console.log(index); console.log(numPostsLoaded);">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                    <p class="heading is-size-6" x-text="item.date.toString()"></p>
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-64x64">
-                                        <img :src="item.image" alt="item.title">
-                                    </figure>
-                                </div>
-                                <div class="media-content">
-                                    <p class="title is-4" x-text="item.title"></p>
-                                    <div class="subtitle tags">
-                                        <template x-for="tag in item.tags">
-                                            <span class="tag is-primary has-text-dark is-size-6" x-text="tag"></span>
-                                        </template>
+                <a :href="item.url">
+                    <div class="timeline-item" x-init="numPostsLoaded ++">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <p class="heading is-size-6" x-text="item.date.toString()"></p>
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image is-64x64">
+                                                <img :src="item.image" alt="item.title">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4" x-text="item.title"></p>
+                                            <div class="subtitle tags">
+                                                <template x-for="tag in item.tags">
+                                                    <span class="tag is-primary has-text-dark is-size-6" x-text="tag"></span>
+                                                </template>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <template x-if="item.type !== 'Projects'">
+                                        <div class="content is-size-5" x-html="item.excerpt">
+                                        </div>
+                                    </template>
                                 </div>
-                            </div>
-                            <template x-if="item.type !== 'Projects'">
-                                <div class="content is-size-5" x-html="item.excerpt">
-                                </div>
-                            </template>
                             </div>
                         </div>
                     </div>
-                </div>
-            </a>
+                </a>
             </template>
         </template>
     </div>
