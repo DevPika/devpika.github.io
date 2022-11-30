@@ -17,15 +17,28 @@ Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep t
 
 You can find my CV [here][cv].
 
-Recent reads:
-* [3D User Interfaces: Theory and Practice, 2nd ed.](https://www.amazon.com/3D-User-Interfaces-Practice-Usability/dp/0134034325)
-* [Latest edition of ACM Interactions](https://interactions.acm.org/)
-* [Designing Gestural Interfaces](https://dl.acm.org/citation.cfm?id=1496379) by Dan Saffer
-* [Brave NUI World](https://dl.acm.org/citation.cfm?id=1995309) by Wigdor and Wixon
-* [Speculative Everything](https://mitpress.mit.edu/books/speculative-everything) by Dunne and Raby
-* [The Last Lecture](https://www.cmu.edu/randyslecture/book/) by Randy Pausch
+Read on to know a bit more about me!
 
-Ping me anytime to discuss about these!
+<div class="columns is-multiline">
+    <div class="column is-6">
+        <h1 class="title is-size-3">What I am reading...</h1>
+        <iframe id="reading"
+            title="What I am reading..."
+            height="200"
+            width="100%"
+            src="https://bookmarks-microblog.netlify.app/reading">
+        </iframe>
+    </div>
+    <div class="column is-6">
+        <h1 class="title is-size-3">What I am listening to...</h1>
+        <iframe id="listening"
+            title="What I am listening to..."
+            height="200"
+            width="100%"
+            src="https://bookmarks-microblog.netlify.app/listening">
+        </iframe>
+    </div>
+</div>
 
 ## Internship
 **Indian Institute of Technology, Guwahati** May 2019 - Novemeber 2019\\
@@ -56,7 +69,7 @@ TOEFL : 108/120 (R 28, L 30, S 23, W 27)
 [vvise]: https://vvise.iat.sfu.ca/
 [gh]: https://github.com/DevPika
 [be]: https://behance.net/ayaskant
-[cv]: https://github.com/DevPika/devpika.github.io/blob/master/assets/Ayaskant_Panigrahi_CV.pdf
+[cv]: https://github.com/DevPika/devpika.github.io/blob/new-site-src/assets/Ayaskant_Panigrahi_CV.pdf
 [eilab]: http://embeddedinteractions.com/
 [coursera]: https://www.coursera.org/account/accomplishments/verify/T2TAEGQN9L2G
 [gamedev]: /projects/gamedev-iiitdmj
