@@ -4,6 +4,7 @@ permalink: /projects/vr-hci/
 subtitle: HCI Experiments with Oculus Rift and Leap Motion
 image: /assets/images/rift-leapmotion.jpg
 tags: ["VR", "HCI"]
+date: 2019-10-15T00:00:00Z
 ---
 
 Controller-less tracking frees the body to perform intuitive gestures to interact with computers. Leap Motion does just that: it is a special IR based hand tracking solution. Throw in an Oculus Rift into the mix and you are suddenly zipping through virtual space with shiny virtual hand avatars! I was working on implementation of some novel virtual object selection techniques and researching their efficacy in comparison to classic techniques like Raycasting. I was also researching the different feedback possibilities for a bespoke controller to enable non-visual access to virtual environments. These projects were a part of my six month internship at [Embedded Interaction Lab](http://embeddedinteractions.com/), IIT Guwahati under the guidance of Dr. Keyur Sorathia and PhD students of the lab, Pranjal Borah and Shimmila Bhowmick. We hope to have our work published in upcoming conferences like TEI'20 and IEEE VR'20. Find out more about my research and publications [here](/research/).

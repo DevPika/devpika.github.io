@@ -4,6 +4,7 @@ permalink: /projects/vr-3dui-course/
 subtitle: Fast and cheap VR prototyping using Unity and Cardboard viewers
 image: /assets/images/3dui-thumb.png
 tags: ["VR", "HCI"]
+date: 2021-01-06T00:00:00Z
 ---
 
 Google Cardboard leveraged the idea of using all the in-built sensors onboard most smartphones today to bring Virtual Reality to the masses. While suffering from a fair share of problems including phone heating and limited 3DoF tracking, it can still work as a good medium for testing out simple interactions in VR.

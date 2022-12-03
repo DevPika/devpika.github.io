@@ -4,6 +4,7 @@ permalink: /projects/cubism-editor/
 subtitle: Make your custom levels for the popular VR game!
 image: /assets/images/cubism-thumb.png
 tags: ["Unity3D", "VR", "Game Development"]
+date: 2021-09-08T00:00:00Z
 ---
 
 

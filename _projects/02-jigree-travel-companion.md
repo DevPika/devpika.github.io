@@ -4,6 +4,7 @@ permalink: /projects/jigree-travel-companion/
 subtitle: A Travel Companion for tourists visiting Jabalpur
 image: /assets/images/jigree.png
 tags: ["Design", "Gamification"]
+date: 2018-11-15T00:00:00Z
 ---
 
 Our team was tasked with creating a tourism grid that connects major tourist places in and around Jabalpur. We proposed JIGREE - A Travel Companion for Jabalpur Tourism as a solution.

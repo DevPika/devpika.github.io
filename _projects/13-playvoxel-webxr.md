@@ -4,6 +4,7 @@ permalink: /projects/playvoxel-webxr/
 subtitle: A VR voxel drawing tool
 image: /assets/images/playvoxel-thumb.jpg
 tags: ["WebXR", "VR", "Game Development"]
+date: 2022-02-15T00:00:00Z
 ---
 
 {% include youtube.html video="JoAd4Xl5FKQ" %}
