@@ -12,7 +12,8 @@ layout: default
     _posts.push( {
         type: `{{post.timeline-type| dump | safe }}`,
         title: `{{post.title| dump | safe }}`,
-        date: `{{post.date | date: "%b %-d, %Y"  | dump | safe }}`,
+        date: `{{post.date | date: "%b %d, %Y"  | dump | safe }}`,
+        dateWithoutDay: `{{post.date | date: "%b, %Y"  | dump | safe }}`,
         excerpt: `{{post.excerpt | dump | safe }}`,
         url: `{{post.url | dump | safe }}`,
         baseurl: `{{site.baseurl | dump | safe }}`,
@@ -89,7 +90,12 @@ layout: default
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
-                    <p class="heading is-size-6" x-text="window._posts[index].date.toString()"></p>
+                    <template x-if="window._posts[index].type === 'Posts'">
+                    <p class="heading is-size-6" x-text="window._posts[index].date"></p>
+                    </template>
+                    <template x-if="window._posts[index].type !== 'Posts'">
+                    <p class="heading is-size-6" x-text="window._posts[index].dateWithoutDay"></p>
+                    </template>
                     <div class="card">
                         <div class="card-content">
                             <div class="media">
