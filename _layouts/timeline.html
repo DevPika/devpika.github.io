@@ -86,18 +86,18 @@ layout: default
         </div>
     </div>
     <template x-for="index in shownIndices">
-        <a :href="window._posts[index].url">
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <template x-if="window._posts[index].type === 'Posts'">
-                    <p class="heading is-size-6" x-text="window._posts[index].date"></p>
-                    </template>
-                    <template x-if="window._posts[index].type !== 'Posts'">
-                    <p class="heading is-size-6" x-text="window._posts[index].dateWithoutDay"></p>
-                    </template>
-                    <div class="card">
-                        <div class="card-content">
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <template x-if="window._posts[index].type === 'Posts'">
+                <p class="heading is-size-6" x-text="window._posts[index].date"></p>
+                </template>
+                <template x-if="window._posts[index].type !== 'Posts'">
+                <p class="heading is-size-6" x-text="window._posts[index].dateWithoutDay"></p>
+                </template>
+                <div class="card">
+                    <div class="card-content">
+                        <a :href="window._posts[index].url">
                             <div class="media">
                                 <div class="media-left">
                                     <figure class="image is-64x64">
@@ -113,15 +113,15 @@ layout: default
                                     </div>
                                 </div>
                             </div>
-                            <template x-if="window._posts[index].type !== 'Projects'">
-                                <div class="content is-size-5" x-html="window._posts[index].excerpt">
-                                </div>
-                            </template>
-                        </div>
+                        </a>
+                        <template x-if="window._posts[index].type !== 'Projects'">
+                            <div class="content is-size-5" x-html="window._posts[index].excerpt">
+                            </div>
+                        </template>
                     </div>
                 </div>
             </div>
-        </a>
+        </div>
     </template>
     <div class="timeline-header" x-show="!loadedAllPosts" x-intersect="loadMorePosts()">
         <button class="button is-loading"></button>
