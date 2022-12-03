@@ -177,6 +177,41 @@ defaults:
     values:
       timeline-type: "Projects"
       layout: project
+  -
+    scope:
+      path: ""
+      type: "education"
+    values:
+      timeline-type: "Education"
+      layout: post
+  -
+    scope:
+      path: ""
+      type: "experience"
+    values:
+      timeline-type: "Experience"
+      layout: post
+  -
+    scope:
+      path: ""
+      type: "publications"
+    values:
+      timeline-type: "Publications"
+      layout: post
+  -
+    scope:
+      path: ""
+      type: "coursework"
+    values:
+      timeline-type: "Coursework"
+      layout: post
+  -
+    scope:
+      path: ""
+      type: "awards"
+    values:
+      timeline-type: "Awards"
+      layout: post
 
 markdown: kramdown
 highlighter: rouge
@@ -188,4 +223,24 @@ collections:
     output: true
     layout: default
     image: https://via.placeholder.com/800x600
+    show_sidebar: true
+  education:
+    output: true
+    layout: default
+    show_sidebar: true
+  experience:
+    output: true
+    layout: default
+    show_sidebar: true
+  publications:
+    output: true
+    layout: default
+    show_sidebar: true
+  coursework:
+    output: true
+    layout: default
+    show_sidebar: true
+  awards:
+    output: true
+    layout: default
     show_sidebar: true
