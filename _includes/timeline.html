@@ -1,30 +1,11 @@
----
-layout: default
----
 {% assign allposts = site.posts | concat: site.projects | concat: site.education | concat: site.experience | concat: site.publications | concat: site.coursework | concat: site.awards | sort: "date" | reverse %}
-<div class="content custom-text-size">
-    <h1 class="title is-size-2">{{ page.title }}</h1>
-    {{ content }}
-</div>
 <script>
     const _posts = [];
-    {% for post in allposts %}
-    _posts.push( {
-        type: `{{post.timeline-type| dump | safe }}`,
-        title: `{{post.title| dump | safe }}`,
-        date: `{{post.date | date: "%b %d, %Y"  | dump | safe }}`,
-        dateWithoutDay: `{{post.date | date: "%b, %Y"  | dump | safe }}`,
-        excerpt: `{{post.excerpt | dump | safe }}`,
-        url: `{{post.url | dump | safe }}`,
-        baseurl: `{{site.baseurl | dump | safe }}`,
-        image: `{% if post.image %}{{post.image}}{% else %}{% if site.favicon %} {{ site.favicon | relative_url }} {% else %} {{ site.baseurl }}/favicon.png {% endif %}{% endif %}`,
-        tags: [{% if post.tags %}{% assign sorted_tags = post.tags | sort %}{% for single_tag in sorted_tags %}`{{ single_tag }}`,{% endfor %}{% endif %}]
-    } );
-    {% endfor %}
+    {% for post in allposts %}_posts.push( {type: `{{post.timeline-type| dump | safe }}`,title: `{{post.title| dump | safe }}`,date: `{{post.date | date: "%b %d, %Y"  | dump | safe }}`,dateWithoutDay: `{{post.date | date: "%b, %Y"  | dump | safe }}`,excerpt: `{{post.excerpt | dump | safe }}`,url: `{{post.url | dump | safe }}`,baseurl: `{{site.baseurl | dump | safe }}`,image: `{% if post.image %}{{post.image}}{% else %}{% if site.favicon %} {{ site.favicon | relative_url }} {% else %} {{ site.baseurl }}/favicon.png {% endif %}{% endif %}`,tags: [{% if post.tags %}{% assign sorted_tags = post.tags | sort %}{% for single_tag in sorted_tags %}`{{ single_tag }}`,{% endfor %}{% endif %}]} );{% endfor %}
     window._posts = _posts;
 
     function infiniteScroll() {
-        return {
+    return {
             open: false,
             timelineType: 'Posts',
             loadedAllPosts: false,
@@ -86,42 +67,7 @@ layout: default
         </div>
     </div>
     <template x-for="index in shownIndices">
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <template x-if="window._posts[index].type === 'Posts'">
-                <p class="heading is-size-6" x-text="window._posts[index].date"></p>
-                </template>
-                <template x-if="window._posts[index].type !== 'Posts'">
-                <p class="heading is-size-6" x-text="window._posts[index].dateWithoutDay"></p>
-                </template>
-                <div class="card">
-                    <div class="card-content">
-                        <a :href="window._posts[index].url">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-64x64">
-                                        <img :src="window._posts[index].image" alt="window._posts[index].title">
-                                    </figure>
-                                </div>
-                                <div class="media-content">
-                                    <p class="title is-4" x-text="window._posts[index].title"></p>
-                                    <div class="subtitle tags">
-                                        <template x-for="tag in window._posts[index].tags">
-                                            <span class="tag is-primary has-text-dark is-size-6" x-text="tag"></span>
-                                        </template>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <template x-if="window._posts[index].type !== 'Projects'">
-                            <div class="content is-size-5" x-html="window._posts[index].excerpt">
-                            </div>
-                        </template>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {% include timeline-item.html %}
     </template>
     <div class="timeline-header" x-show="!loadedAllPosts" x-intersect="loadMorePosts()">
         <button class="button is-loading"></button>

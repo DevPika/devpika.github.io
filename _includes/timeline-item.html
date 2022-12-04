@@ -1,43 +1,36 @@
-<a href="{{ site.baseurl }}{{ post.url }}">
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-        <p class="heading is-size-6">{{ post.date | date: "%b %-d, %Y" }}</p>
+<div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+        <template x-if="window._posts[index].type === 'Posts'">
+        <p class="heading is-size-6" x-text="window._posts[index].date"></p>
+        </template>
+        <template x-if="window._posts[index].type !== 'Posts'">
+        <p class="heading is-size-6" x-text="window._posts[index].dateWithoutDay"></p>
+        </template>
         <div class="card">
             <div class="card-content">
-            <div class="media">
-                <div class="media-left">
-                {% if post.image %}
-                <figure class="image is-64x64">
-                    <img src="{{ post.image }}" alt="{{ post.title }}">
-                </figure>
-                {% else %}
-                <figure class="image is-64x64">
-                    <img src="{% if site.favicon %} {{ site.favicon | relative_url }} {% else %} {{ site.baseurl }}/favicon.png {% endif %}" alt="{{ post.title }}">
-                </figure>
-                {% endif %}
-                </div>
-                <div class="media-content">
-                <p class="title is-4">{{ post.title}}</p>
-                <div class="subtitle">
-                {% if post.tags %}
-                    {% assign sorted_tags = post.tags | sort %}
-                    {% for single_tag in sorted_tags %}
-                        <span class="tag is-primary has-text-dark is-size-6">
-                            {{ single_tag }}
-                        </span>
-                    {% endfor %}
-                {% endif %}
-                </div>
-                </div>
+                <a :href="window._posts[index].url">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img :src="window._posts[index].image" alt="window._posts[index].title">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4" x-text="window._posts[index].title"></p>
+                            <div class="subtitle tags">
+                                <template x-for="tag in window._posts[index].tags">
+                                    <span class="tag is-primary has-text-dark is-size-6" x-text="tag"></span>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <template x-if="window._posts[index].type !== 'Projects'">
+                    <div class="content is-size-5" x-html="window._posts[index].excerpt">
+                    </div>
+                </template>
             </div>
-            {% if post.timeline-type != "Projects" %}
-            <div class="content is-size-5">
-                {{ post.excerpt }}
-            </div>
-            {% endif %}
-            </div>
-        </div>
         </div>
     </div>
-</a>
+</div>
