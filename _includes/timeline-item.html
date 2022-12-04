@@ -9,23 +9,25 @@
         </template>
         <div class="card">
             <div class="card-content">
-                <a :href="window._posts[index].url">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-64x64">
-                                <img :src="window._posts[index].image" alt="window._posts[index].title">
+                <div class="media">
+                    <div class="media-left">
+                        <a :href="window._posts[index].url">
+                            <figure class="image is-64x64 is-1by1">
+                                <img :src="window._posts[index].image" alt="window._posts[index].title" style="border-radius: 10px">
                             </figure>
-                        </div>
-                        <div class="media-content">
+                        </a>
+                    </div>
+                    <div class="media-content">
+                        <a :href="window._posts[index].url">
                             <p class="title is-4" x-text="window._posts[index].title"></p>
                             <div class="subtitle tags">
                                 <template x-for="tag in window._posts[index].tags">
                                     <span class="tag is-primary has-text-dark is-size-6" x-text="tag"></span>
                                 </template>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
+                </div>
                 <template x-if="!window._posts[index].type.includes('Projects')">
                     <div class="content is-size-5" x-html="window._posts[index].excerpt">
                     </div>
