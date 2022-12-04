@@ -3,6 +3,7 @@ layout: post
 title: "AR Zombie themed magic card!"
 tags: ["WebXR", "AR"]
 image: "/assets/images/blog/AR_zombie.gif"
+timeline-type: ['Pinned', 'Posts']
 ---
 Experimenting with Image Tracking module of WebXR
 <!--more-->

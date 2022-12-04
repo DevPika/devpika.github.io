@@ -5,6 +5,7 @@ subtitle: Imagining the role of VR in memorializing and grieving
 image: /assets/images/memento-flori.png
 tags: ["Design", "VR", "HCI"]
 date: 2021-03-15T00:00:00Z
+timeline-type: ['Pinned', 'Projects']
 ---
 
 How might virtual reality play a role in the grieving process? What would it look like if your virtual community came together to mourn your death, much as your friends and family would in real life? What might be possible if we used virtual spaces to memorialize lost loved ones?

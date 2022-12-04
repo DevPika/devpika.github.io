@@ -3,6 +3,7 @@ layout: post
 title: "Bringing Mozilla's game Jumpy Balls to AR!"
 tags: ["WebXR", "AR","threejs","Game Development"]
 image: "/assets/images/blog/jumpy-balls-xr.gif"
+timeline-type: ['Pinned', 'Posts']
 ---
 
 Time to shoot balls around in your room!

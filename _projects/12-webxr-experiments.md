@@ -5,6 +5,7 @@ subtitle: Creating XR experiences that can run in the browser
 image: /assets/images/webxr-thumb.png
 tags: ["WebXR", "VR"]
 date: 2021-08-08T00:00:00Z
+timeline-type: ['Pinned', 'Posts']
 ---
 
 I challenged myself to create VR experiences for WebXR using aframe. 
