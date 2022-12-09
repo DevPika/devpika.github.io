@@ -17,9 +17,7 @@
 
             loadItems() {
                 this.shownIndices = [];
-                this.cardToggles = [];
                 for (let index = 0; index < window._posts.length; index++) {
-                    this.cardToggles.push(true);
                     const post = window._posts[index];
                     if (!post.type.includes(this.timelineType)) continue;
                     this.shownIndices.push(index);
@@ -29,14 +27,19 @@
     }
 </script>
 <div x-data="infiniteScroll()" x-init="init()">
-    <div class="tabs">
+    <div class="tabs is-medium is-boxed is-toggle is-fullwidth" id="tabs">
         <ul>
             <template x-for="typeitem in ['Education', 'Experience', 'Publications', 'Coursework', 'Awards']">
-                <li @click="timelineType = typeitem; loadItems();" x-bind:class="timelineType === typeitem ? 'is-active' : ''"><a x-text="typeitem"></a></li>
+                <li @click="timelineType = typeitem; loadItems();" x-bind:class="timelineType === typeitem ? 'is-active' : ''">
+                    <a style="border-radius: 15px 15px 0px 0px;" x-text="typeitem"></a>
+                </li>
             </template>
         </ul>
     </div>
     <template x-for="index in shownIndices">
         {% include tabs-item.html %}
     </template>
+    <a @click="document.getElementById('tabs').scrollIntoView({behavior: 'smooth'})">
+        <button class="button is-primary">Go to tabs</button>
+    </a>    
 </div>

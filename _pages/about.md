@@ -15,8 +15,6 @@ I was a part of the [game design and development group][gamedev] at my undergrad
 
 Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep track of my latest projects!
 
-You can find my CV [here][cv].
-
 Read on to know a bit more about me!
 
 <div class="columns is-multiline">
@@ -40,7 +38,10 @@ Read on to know a bit more about me!
     </div>
 </div>
 
+You can find a PDF version of my CV [here][cv]. Or keep reading for a dynamic version with tabs!
+
 [vvise]: https://vvise.iat.sfu.ca/
 [gh]: https://github.com/DevPika
 [be]: https://behance.net/ayaskant
 [cv]: https://github.com/DevPika/devpika.github.io/blob/new-site-src/assets/Ayaskant_Panigrahi_CV.pdf
+[gamedev]: /projects/gamedev-iiitdmj
