@@ -1,0 +1,42 @@
+{% assign allposts = site.posts | concat: site.projects | concat: site.education | concat: site.experience | concat: site.publications | concat: site.coursework | concat: site.awards | sort: "date" | reverse %}
+<script>
+    const _posts = [];
+    {% for post in allposts %}_posts.push( {type: [{% for type in post.timeline-type %}`{{type | dump | safe }}`,{% endfor %}],title: `{{post.title| dump | safe }}`,date: `{{post.date | date: "%b %d, %Y"  | dump | safe }}`,dateWithoutDay: `{{post.date | date: "%b, %Y"  | dump | safe }}`,excerpt: `{{post.excerpt | dump | safe }}`,url: `{{post.url | dump | safe }}`,baseurl: `{{site.baseurl | dump | safe }}`,image: `{% if post.image %}{{post.image}}{% else %}{% if site.favicon %} {{ site.favicon | relative_url }} {% else %} {{ site.baseurl }}/favicon.png {% endif %}{% endif %}`,tags: [{% if post.tags %}{% assign sorted_tags = post.tags | sort %}{% for single_tag in sorted_tags %}`{{ single_tag }}`,{% endfor %}{% endif %}]} );{% endfor %}
+    window._posts = _posts;
+
+    function infiniteScroll() {
+    return {
+            open: false,
+            timelineType: 'Education',
+            loadedAllPosts: false,
+            postsPerPage: 10,
+
+            init() {
+                this.loadItems();
+            },
+
+            loadItems() {
+                this.shownIndices = [];
+                this.cardToggles = [];
+                for (let index = 0; index < window._posts.length; index++) {
+                    this.cardToggles.push(true);
+                    const post = window._posts[index];
+                    if (!post.type.includes(this.timelineType)) continue;
+                    this.shownIndices.push(index);
+                }
+            }
+        }
+    }
+</script>
+<div x-data="infiniteScroll()" x-init="init()">
+    <div class="tabs">
+        <ul>
+            <template x-for="typeitem in ['Education', 'Experience', 'Publications', 'Coursework', 'Awards']">
+                <li @click="timelineType = typeitem; loadItems();" x-bind:class="timelineType === typeitem ? 'is-active' : ''"><a x-text="typeitem"></a></li>
+            </template>
+        </ul>
+    </div>
+    <template x-for="index in shownIndices">
+        {% include tabs-item.html %}
+    </template>
+</div>

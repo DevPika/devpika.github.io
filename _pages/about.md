@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-layout: page
+layout: about
 ---
 
 > Any sufficiently advanced technology is indistinguishable from magic.\\
@@ -40,37 +40,7 @@ Read on to know a bit more about me!
     </div>
 </div>
 
-## Internship
-**Indian Institute of Technology, Guwahati** May 2019 - Novemeber 2019\\
-*At [Embedded Interactions Lab (EILab)][eilab] under Dr. Keyur Sorathia's mentorship*\\
-Related to Object selection in Virtual environments, using Oculus Rift CV1 and Leap Motion on the hardware side of things, and Unity3D with respective APIs on the software side.
-
-## Education
-**Simon Fraser University, Canada** January 2021, ongoing\\
-*Master of Science, Interactive Arts and Technology*\\
-GPA: 4.22/4.33 (Term 1)\\
-\\
-**Indian Institute of Information Technology, Jabalpur, India** July 2016 - May 2020\\
-*Bachelor of Technology, Computer Science & Engineering*\\
-GPA: 8.6/10
-
-### Test scores
-GRE General Test: 332/340 (Q – 168, V – 164, AW – 4)\\
-TOEFL : 108/120 (R 28, L 30, S 23, W 27)
-
-### Relevant courses
-
-* [Human-Centered Design: an Introduction][coursera] ( *Nov - Dec 2019*, online on Coursera offered by UCSD )
-* Machine Learning ( *Jan - Apr 2019* )
-* Image Processing ( *Jan - Apr 2019* )
-* Introduction to R Software ( *Aug - Nov 2018* )
-
-
 [vvise]: https://vvise.iat.sfu.ca/
 [gh]: https://github.com/DevPika
 [be]: https://behance.net/ayaskant
 [cv]: https://github.com/DevPika/devpika.github.io/blob/new-site-src/assets/Ayaskant_Panigrahi_CV.pdf
-[eilab]: http://embeddedinteractions.com/
-[coursera]: https://www.coursera.org/account/accomplishments/verify/T2TAEGQN9L2G
-[gamedev]: /projects/gamedev-iiitdmj
-
