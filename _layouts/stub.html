@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="content custom-text-size">
+    <h1 class="title is-3">{{ page.title }}</h1>
+    <p>Posted on {{ page.date | date: "%b %-d, %Y" }}</p>
+
+    {% if page.series %}
+        {% include series.html %}
+    {% endif %}
+
+    <div class="tags">
+      {% for tag in page.tags %}
+        <span class="tag is-primary has-text-dark is-size-5 m-1">
+          {{ tag }}
+        </span>
+      {% endfor %}
+    </div>
+
+    {{ content }}
+</div>
+
+
+
+{% unless site.hide_share_buttons %}
+{% include share-buttons.html %}
+{% endunless %}
+
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
+{% endif %}

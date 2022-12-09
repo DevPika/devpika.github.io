@@ -183,35 +183,35 @@ defaults:
       type: "education"
     values:
       timeline-type: "Education"
-      layout: post
+      layout: stub
   -
     scope:
       path: ""
       type: "experience"
     values:
       timeline-type: "Experience"
-      layout: post
+      layout: stub
   -
     scope:
       path: ""
       type: "publications"
     values:
       timeline-type: "Publications"
-      layout: post
+      layout: stub
   -
     scope:
       path: ""
       type: "coursework"
     values:
       timeline-type: "Coursework"
-      layout: post
+      layout: stub
   -
     scope:
       path: ""
       type: "awards"
     values:
       timeline-type: "Awards"
-      layout: post
+      layout: stub
 
 markdown: kramdown
 highlighter: rouge
