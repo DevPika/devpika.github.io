@@ -22,6 +22,16 @@ img.grayscale:hover {
   transition: 0.2s;
 }
 
+.menu, .bio {
+  position: sticky;
+  display: inline-block;
+  vertical-align: top;
+  max-height: 100vh;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
 .content.custom-text-size {
   @extend .is-size-5;
 }
