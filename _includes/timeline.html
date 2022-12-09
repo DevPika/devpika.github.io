@@ -14,6 +14,7 @@
             init() {
                 this.loadFirstPage();
                 // https://www.entreprehero.com/infinite-scroll-using-alpinejs/
+                this.triggerElement = document.querySelector('#loader');
                 const ctx = this;
                 if (!('IntersectionObserver' in window) ||
                     !('IntersectionObserverEntry' in window) ||
@@ -39,7 +40,7 @@
                     }
                     }, { threshold: [0] })
 
-                    customObserver.observe(document.querySelector("#loader"))
+                    customObserver.observe(ctx.triggerElement);
                 }
             },
 
