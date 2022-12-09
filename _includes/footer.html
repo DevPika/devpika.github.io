@@ -13,8 +13,9 @@
         </div>
         {% endif %}
 
-        <div class="content is-small has-text-centered">
-            &copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. Created using the <a href="https://jenil.github.io/bulmaswatch/darkly/">Darkly theme</a>, <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Gem</a> and <a href="https://jekyllrb.com/">Jekyll</a>.
+        <div class="content is-small has-text-centered is-vcentered">
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. Created using the <a href="https://jenil.github.io/bulmaswatch/darkly/">Darkly theme</a>, <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Gem</a> and <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+            <button class="button is-small ml-2" x-data @click="window.scrollTo({top: 0, behavior: 'smooth'})">Back to top</button>
         </div>
     </div>
         
