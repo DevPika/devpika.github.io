@@ -13,6 +13,34 @@
 
             init() {
                 this.loadFirstPage();
+                // https://www.entreprehero.com/infinite-scroll-using-alpinejs/
+                const ctx = this;
+                if (!('IntersectionObserver' in window) ||
+                    !('IntersectionObserverEntry' in window) ||
+                    !('isIntersecting' in window.IntersectionObserverEntry.prototype) ||
+                    !('intersectionRatio' in window.IntersectionObserverEntry.prototype))
+                {
+                    this.isObserverPolyfilled = true;
+                    window.alpineInfiniteScroll = {
+                        scrollFunc() {
+                        var position = ctx.triggerElement.getBoundingClientRect();
+
+                            if(position.top < window.innerHeight && position.bottom >= 0) {
+                                ctx.loadMorePosts();
+                            }
+                        }
+                    }
+
+                    window.addEventListener('scroll', window.alpineInfiniteScroll.scrollFunc);
+                } else {
+                    const customObserver = new IntersectionObserver(function(entries) {
+                    if(entries[0].isIntersecting === true) {
+                        ctx.loadMorePosts();
+                    }
+                    }, { threshold: [0] })
+
+                    customObserver.observe(document.querySelector("#loader"))
+                }
             },
 
             loadFirstPage() {
@@ -49,7 +77,7 @@
     }
 </script>
 <div class="timeline ml-5" x-data="infiniteScroll()" x-init="init()">
-    <div @click="() => {open = !open;}" class="dropdown timeline-header" x-bind:class="open ? 'is-active' : ''">
+    <div @click="open = !open" class="dropdown timeline-header" x-bind:class="open ? 'is-active' : ''">
         <div class="dropdown-trigger">
           <button class="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu">
             <span x-text="timelineType"></span>
@@ -61,7 +89,7 @@
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
           <div class="dropdown-content">
             <template x-for="typeitem in ['Pinned', 'Posts', 'Projects', 'Education', 'Experience', 'Publications', 'Coursework', 'Awards']">
-                <a class="dropdown-item" @click="() => {timelineType = typeitem; loadFirstPage();}" x-bind:class="timelineType === typeitem ? 'is-active' : ''" x-text="typeitem" ></a>
+                <a class="dropdown-item" @click="timelineType = typeitem; loadFirstPage();" x-bind:class="timelineType === typeitem ? 'is-active' : ''" x-text="typeitem" ></a>
             </template>
           </div>
         </div>
@@ -69,7 +97,7 @@
     <template x-for="index in shownIndices">
         {% include timeline-item.html %}
     </template>
-    <div class="timeline-header" x-show="!loadedAllPosts" x-intersect="loadMorePosts()">
+    <div class="timeline-header" id="loader" x-show="!loadedAllPosts">
         <button class="button is-loading"></button>
     </div>
     <div class="timeline-header" x-show="loadedAllPosts">
