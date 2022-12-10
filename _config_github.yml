@@ -38,9 +38,14 @@ author:
   location         : "Vancouver"
   email            : "ayaskant.panigrahi@gmail.com"
   links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/devpika"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DevPika"
+    - label: "Glitch"
+      url: "https://glitch.com/@gameshire"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ayaskant-panigrahi"
@@ -50,9 +55,6 @@ author:
     - label: "Behance"
       icon: "fab fa-fw fa-behance-square"
       url: "https://www.behance.net/ayaskant"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
@@ -208,15 +210,15 @@ defaults:
   -
     scope:
       path: ""
-      type: "awards"
+      type: "achievements"
     values:
-      timeline-type: "Awards"
+      timeline-type: "Achievements"
       layout: stub
 
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: example_footer_menu
+# footer_menu: example_footer_menu
 
 collections:
   projects: 
@@ -240,7 +242,7 @@ collections:
     output: true
     layout: default
     show_sidebar: true
-  awards:
+  achievements:
     output: true
     layout: default
     show_sidebar: true
