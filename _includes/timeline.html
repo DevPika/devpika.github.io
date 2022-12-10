@@ -1,4 +1,4 @@
-{% assign allposts = site.posts | concat: site.projects | concat: site.education | concat: site.experience | concat: site.publications | concat: site.coursework | concat: site.awards | sort: "date" | reverse %}
+{% assign allposts = site.posts | concat: site.projects | concat: site.education | concat: site.experience | concat: site.publications | concat: site.coursework | concat: site.achievements | sort: "date" | reverse %}
 <script>
     const _posts = [];
     {% for post in allposts %}_posts.push( {type: [{% for type in post.timeline-type %}`{{type | dump | safe }}`,{% endfor %}],title: `{{post.title| dump | safe }}`,date: `{{post.date | date: "%b %d, %Y"  | dump | safe }}`,dateWithoutDay: `{{post.date | date: "%b, %Y"  | dump | safe }}`,excerpt: `{{post.excerpt | dump | safe }}`,url: `{{post.url | dump | safe }}`,baseurl: `{{site.baseurl | dump | safe }}`,image: `{% if post.image %}{{post.image}}{% else %}{% if site.favicon %} {{ site.favicon | relative_url }} {% else %} {{ site.baseurl }}/favicon.png {% endif %}{% endif %}`,tags: [{% if post.tags %}{% assign sorted_tags = post.tags | sort %}{% for single_tag in sorted_tags %}`{{ single_tag }}`,{% endfor %}{% endif %}]} );{% endfor %}
@@ -89,7 +89,7 @@
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
           <div class="dropdown-content">
-            <template x-for="typeitem in ['Pinned', 'Posts', 'Projects', 'Education', 'Experience', 'Publications', 'Coursework', 'Awards']">
+            <template x-for="typeitem in ['Pinned','Posts','Projects','Experience','Publications','Achievements','Education','Coursework']">
                 <a class="dropdown-item" @click="timelineType = typeitem; loadFirstPage();" x-bind:class="timelineType === typeitem ? 'is-active' : ''" x-text="typeitem" ></a>
             </template>
           </div>

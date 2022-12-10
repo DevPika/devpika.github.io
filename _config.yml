@@ -210,9 +210,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "awards"
+      type: "achievements"
     values:
-      timeline-type: "Awards"
+      timeline-type: "Achievements"
       layout: stub
 
 markdown: kramdown
@@ -242,7 +242,7 @@ collections:
     output: true
     layout: default
     show_sidebar: true
-  awards:
+  achievements:
     output: true
     layout: default
     show_sidebar: true

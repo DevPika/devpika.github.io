@@ -1,4 +1,4 @@
-{% assign allposts = site.posts | concat: site.projects | concat: site.education | concat: site.experience | concat: site.publications | concat: site.coursework | concat: site.awards | sort: "date" | reverse %}
+{% assign allposts = site.posts | concat: site.projects | concat: site.education | concat: site.experience | concat: site.publications | concat: site.coursework | concat: site.achievements | sort: "date" | reverse %}
 <script>
     const _posts = [];
     {% for post in allposts %}_posts.push( {type: [{% for type in post.timeline-type %}`{{type | dump | safe }}`,{% endfor %}],title: `{{post.title| dump | safe }}`,date: `{{post.date | date: "%b %d, %Y"  | dump | safe }}`,dateWithoutDay: `{{post.date | date: "%b, %Y"  | dump | safe }}`,excerpt: `{{post.excerpt | dump | safe }}`,url: `{{post.url | dump | safe }}`,baseurl: `{{site.baseurl | dump | safe }}`,image: `{% if post.image %}{{post.image}}{% else %}{% if site.favicon %} {{ site.favicon | relative_url }} {% else %} {{ site.baseurl }}/favicon.png {% endif %}{% endif %}`,tags: [{% if post.tags %}{% assign sorted_tags = post.tags | sort %}{% for single_tag in sorted_tags %}`{{ single_tag }}`,{% endfor %}{% endif %}]} );{% endfor %}
@@ -7,7 +7,7 @@
     function infiniteScroll() {
     return {
             open: false,
-            timelineType: 'Education',
+            timelineType: 'Experience',
             loadedAllPosts: false,
             postsPerPage: 10,
 
@@ -29,7 +29,7 @@
 <div x-data="infiniteScroll()" x-init="init()">
     <div class="tabs is-medium is-boxed is-toggle is-fullwidth" id="tabs">
         <ul>
-            <template x-for="typeitem in ['Education', 'Experience', 'Publications', 'Coursework', 'Awards']">
+            <template x-for="typeitem in ['Experience','Publications','Achievements','Education','Coursework']">
                 <li @click="timelineType = typeitem; loadItems();" x-bind:class="timelineType === typeitem ? 'is-active' : ''">
                     <a style="border-radius: 15px 15px 0px 0px;" x-text="typeitem"></a>
                 </li>
