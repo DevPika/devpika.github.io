@@ -4,8 +4,8 @@
       <div class="media">
         <div class="media-left">
           {% if post.image %}
-          <figure class="image is-64x64">
-              <img src="{{ post.image }}" alt="{{ post.title }}">
+          <figure class="image is-64x64 is-1by1">
+              <img src="{{ post.image }}" alt="{{ post.title }}" style="border-radius: 10px">
           </figure>
           {% else %}
           <figure class="image is-64x64">
