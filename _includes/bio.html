@@ -55,8 +55,7 @@
         {% endif %}
 
         {% if author.email %}
-          <a href="mailto:{{ author.email }}" rel="me" class="u-email">
-            <meta itemprop="email" content="{{ author.email }}" />
+          <a href="mailto:{{ author.email | encode_email }}" rel="me" class="u-email">
             <span class="icon-text">
               <span class="icon">
                 <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
