@@ -43,5 +43,5 @@ You can find a PDF version of my CV [here][cv]. Or keep reading for a dynamic ve
 [vvise]: https://vvise.iat.sfu.ca/
 [gh]: https://github.com/DevPika
 [be]: https://behance.net/ayaskant
-[cv]: https://github.com/DevPika/devpika.github.io/blob/new-site-src/assets/Ayaskant_Panigrahi_CV.pdf
+[cv]: https://devpika.github.io/assets/Ayaskant_Panigrahi_CV.pdf
 [gamedev]: /projects/gamedev-iiitdmj
