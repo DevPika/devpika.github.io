@@ -1,5 +1,6 @@
 ---
 title: MSc. in Interactive Arts and Technology
+date: 2023-12-06T00:00:00Z
 ---
 
-Ongoing, tentative GPA 4.13/4.33 from Simon Fraser University, Vancouver, Canada
+From Simon Fraser University, Vancouver, Canada, with a focus on XR Interaction HCI Research. GPA 4.13/4.33 

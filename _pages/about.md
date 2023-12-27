@@ -7,15 +7,13 @@ layout: about
 > Any sufficiently advanced technology is indistinguishable from magic.\\
 > – Arthur C. Clarke
 
-I am a graduate student pursuing MSc. in Interactive Arts & Technology at Simon Fraser Univeristy, Canada. I am a member of the [VVISE research lab][vvise] directed by Prof. Wolfgang Stuerzlinger. I am always on the lookout for innovative ways of interacting with computers and their applications in various fields.
+I am an XR Developer, Researcher and Interaction Designer based in Vancouver. Motivated by my many positive experiences working with cross-functional teams, I believe in the power of diversity in skillsets, cultures and perspectives. I have worked with a wide variety of XR platforms, from Mobile AR / VR platforms to specialized hardware like Ultraleap hand trackers and Logitech VR Ink pen, and Mixed Reality headsets like Meta Quest 3 and Varjo XR-3. I used Unity for most of these projects, but more recently I have been exploring WebXR as a way of targeting multiple XR platforms with a single code base. I have experienced first-hand the trials and tribulations of being productive and achieving one's vision in this domain despite rapidly changing workflows and often outdated documentation for bleeding edge SDK features. Yet, each time I see the excited faces of the people trying out the magical experiences I help build, it feels like it is all worth it, several times over!
 
-My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. The underlying motivation in my work is to create seamless interactions between humans and computers. Read more about my research [here](/research/).
+I completed my MSc. in Interactive Arts & Technology at Simon Fraser Univeristy, Canada in 2023. I was a member of the [VVISE research lab][vvise] directed by Prof. Wolfgang Stuerzlinger, where I worked on futuristic XR user interfaces that are anchored to the user's body. The thread that ties my research together is my motivation to create seamless and natural interactions between humans and computers. Read more about my research [here](/research/).
 
-I was a part of the [game design and development group][gamedev] at my undergraduate institute, participating in and organizing events like gamejams and Unity workshops over the past few years. When not working on cool projects, you can find me reading up about awesome HCI projects, helping out my institute's clubs with branding or playing table tennis.
+My passion for game design and development is what led me to XR. I have participated in several gamejams and hackathons in the past, and had a blast each time! During my Master's, I assisted in instructing game design courses at various levels, and led popular game dev labs for the courses. I was also a leading member of the [game design and development group][gamedev] at my undergraduate institute, participating in and organizing events like gamejams and Unity workshops.
 
-Follow me on [GitHub][gh], [Behance][be] or visit this site frequently to keep track of my latest projects!
-
-Read on to know a bit more about me!
+When not working on cool projects, you can find me catching up on the latest XR news, playing offbeat indie games or watching anime. Follow me on any of the platforms listed in the sidebar or visit this site frequently to keep track of my latest projects. Read on to know a bit more about me!
 
 <div class="columns is-multiline">
     <div class="column is-6">

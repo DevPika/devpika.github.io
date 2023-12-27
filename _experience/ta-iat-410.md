@@ -1,5 +1,5 @@
 ---
-title: Teaching Assistant for IAT 410 - Advanced Game Design | Vancouver, Canada
+title: Teaching Assistant for Advanced Game Design | Vancouver, Canada
 date: 2021-09-15T00:00:00Z
 ---
 

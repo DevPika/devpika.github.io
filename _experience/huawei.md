@@ -1,5 +1,6 @@
 ---
 title: Part-time Support Researcher at Huawei Technologies | Vancouver, Canada
+tags: [C++,Python,Unreal Engine]
 date: 2022-05-09T00:00:00Z
 ---
 
