@@ -11,8 +11,8 @@ layout: page
 
 My research interests mainly lie in the areas of Natural and Tangible User Interfaces, 3D User Interfaces (3DUI) and Virtual Reality. In all of my recent work, the underlying motivation is to create seamless interactions between humans and computers. Here I list the research labs and people I have worked with:
 
-### Research at [VVISE Lab](https://vvise.iat.sfu.ca/), Simon Fraser University (Jan 2021, ongoing)
-3D interaction techniques in VR under the supervision of Prof. Wolfgang Stuerzlinger, School of Interactive Arts and Technology (SIAT).
+### Research at [VVISE Lab](https://vvise.iat.sfu.ca/), Simon Fraser University (Jan 2021 – Dec 2023)
+Futuristic XR user interfaces that are anchored to the user's body, under the supervision of Prof. Wolfgang Stuerzlinger, School of Interactive Arts and Technology (SIAT).
 
 ### Research at IVE Lab, IIIT-DM Jabalpur (Jan – Sep 2020)
 Automatic smoke segmentation using deep learning methods under the guidance of Dr. Pritee Khanna, Dept. of Computer Science and Engg.
