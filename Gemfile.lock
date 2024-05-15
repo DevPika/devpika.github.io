@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    bulma-clean-theme (0.13.1)
+    bulma-clean-theme (0.13.3)
       jekyll (>= 3.9, < 5.0)
       jekyll-feed (~> 0.15)
       jekyll-paginate (~> 1.1)
@@ -84,7 +84,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bulma-clean-theme
+  bulma-clean-theme (~> 0.13.1)
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.9.2)
   jekyll-email-protect
