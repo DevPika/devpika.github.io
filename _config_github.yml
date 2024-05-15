@@ -4,7 +4,7 @@
 # theme: minima
 # plugins:
 #   - jekyll-feed
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme@v0.13.1
 
 
 # Site settings
