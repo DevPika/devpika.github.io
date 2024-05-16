@@ -1,13 +1,13 @@
 - items:
     - name: Home
       link: /
+    - name: Blog
+      link: /blog/
+    - name: About
+      link: /about/
     - name: Projects
       link: /projects/
     - name: Research
       link: /research/
-    - name: About
-      link: /about/
-    - name: Blog
-      link: /blog/
     - name: CV
       link: https://devpika.github.io/assets/Ayaskant_Panigrahi_CV.pdf
