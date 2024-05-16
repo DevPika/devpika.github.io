@@ -3,7 +3,7 @@ title: Open-Source rocks!
 permalink: /projects/opensource-contributions/
 subtitle: Opportunities to learn and give back
 image: /assets/images/opensource.jpg
-tags: ["VR", "WebXR"]
+tags: ["VR", "Android", "WebXR"]
 timeline-type: ["Pinned", "Projects"]
 date: 2022-11-29T00:00:00Z
 ---
