@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#eeeeee>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@2.8.2/dist/alpine-ie11.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Poke! Fake Galleons, WebPush and PWAs | DevPika’s Corner</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Poke! Fake Galleons, WebPush and PWAs" />
+<meta name="author" content="Ayaskant Panigrahi" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Welcome to Ayaskant Panigrahi’s personal website!" />
+<meta property="og:description" content="Welcome to Ayaskant Panigrahi’s personal website!" />
+<link rel="canonical" href="https://devpika.github.io/_posts/2022-11-20-poke-webpush/" />
+<meta property="og:url" content="https://devpika.github.io/_posts/2022-11-20-poke-webpush/" />
+<meta property="og:site_name" content="DevPika’s Corner" />
+<meta property="og:image" content="https://devpika.github.io/assets/images/blog/poke-icon.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://devpika.github.io/assets/images/blog/poke-icon.png" />
+<meta property="twitter:title" content="Poke! Fake Galleons, WebPush and PWAs" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Ayaskant Panigrahi"},"description":"Welcome to Ayaskant Panigrahi’s personal website!","headline":"Poke! Fake Galleons, WebPush and PWAs","image":"https://devpika.github.io/assets/images/blog/poke-icon.png","url":"https://devpika.github.io/_posts/2022-11-20-poke-webpush/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts --></head>
+
+  <body>
+    
+        <section class="hero  is-small  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+            <a href="https://devpika.github.io/"><h1 class="title is-size-2 has-text-dark has-text-weight-semibold">DevPika's Corner</h1></a>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section main">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-2-desktop is-2-tablet">
+                    
+
+<aside class="menu">
+
+    
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/" class=" pl-5 py-4 test">Home</a>
+            
+        </li>
+        
+        <li>
+            <a href="/blog/" class=" pl-5 py-4 test">Blog</a>
+            
+        </li>
+        
+        <li>
+            <a href="/about/" class=" pl-5 py-4 test">About</a>
+            
+        </li>
+        
+        <li>
+            <a href="/projects/" class=" pl-5 py-4 test">Projects</a>
+            
+        </li>
+        
+        <li>
+            <a href="/research/" class=" pl-5 py-4 test">Research</a>
+            
+        </li>
+        
+        <li>
+            <a href="https://devpika.github.io/assets/Ayaskant_Panigrahi_CV.pdf" class=" pl-5 py-4 test">CV</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+                </div>
+                
+                <div class="column is-8">
+                    
+                    
+                    
+                    
+                    <div class="content custom-text-size">
+    <h1 class="title is-3">Poke! Fake Galleons, WebPush and PWAs</h1>
+    <p>Posted on </p>
+
+    
+
+    <div class="tags">
+      
+        <a href="/tags/#Web">
+          <span class="tag is-primary has-text-dark is-size-5 m-1">
+            Web
+          </span>
+        </a>
+      
+        <a href="/tags/#PWA">
+          <span class="tag is-primary has-text-dark is-size-5 m-1">
+            PWA
+          </span>
+        </a>
+      
+        <a href="/tags/#Watch">
+          <span class="tag is-primary has-text-dark is-size-5 m-1">
+            Watch
+          </span>
+        </a>
+      
+    </div>
+
+    <p>“Poke” your friends and family, straight from your smart band!
+<!--more--></p>
+
+<p><img src="/assets/images/blog/poke-hops.png" alt="Poke app diagram explanation" /></p>
+
+<p>Ever since I read about Hermione’s fake galleons that could be used to communicate the next meeting’s date and time in Harry Potter and the Order of Phoenix, the idea has made a permanent house in my mind. My previous attempt to create an AR “fake-galleon” app based on a QR-code physical token/shared secret led to me learning quite a few things about <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto">SubtleCrypto</a> and making a REST API using <a href="https://falcon.readthedocs.io/en/stable/">the minimalist Python backend framework, Falcon</a>, but I never completed it. While I might pick it up another day, I wanted to see if I could make something with my new Amazfit Band 7 fitness band/ smart watch. Borrowing ideas from old-school pager buzzes and Facebook’s feature to “poke” a friend as a way of getting their attention, I set out to create a set of apps that would enable this. I wanted to tap a button on my watch, which would send a message to the Zepp Android App, which should then be able to somehow send a notification to all connected devices?!? As I had already created some simple apps for the watch like <a href="https://github.com/DevPika/band7-cat-facts">Random Cat Fact fetcher and other watch faces</a>, I knew I could reuse that code for the watch app side. So what remained? Well, almost everything major.</p>
+
+<p>I needed a way to send updates to all the registered devices. A PWA that could show notifications should do the trick. I looked into how I could send notifications to connected devices, which introduced me to the world of WebPush, Firebase Cloud Messaging and VAPID authentication schemes. I wanted to create my own API endpoints that devices could register to and then receive VAPID-secured notifications.</p>
+
+<p>The <a href="https://web.dev/push-notifications-server-codelab/">server</a> and <a href="https://web.dev/push-notifications-client-codelab/">client</a> codelabs from web.dev came in really handy at this point, as it had the base Express server with some default endpoints set up to register and push notifications to connected clients. I wrapped up the client into a PWA, complete with custom icons, and set up some other endpoints to send customized messages within the PWA (while still allowing for a default notification from devices like a smart watch). I asked a few people from my family and friends to test it out and it seems to work! Find the full source to the app on the watch, server and PWA <a href="https://github.com/DevPika/band7-poke">on my GitHub</a>.</p>
+
+</div>
+
+
+
+
+
+
+
+                </div>
+                <div class="column is-2-desktop is-2-tablet">
+                    
+<!-- some comment -->
+<div class="card bio" style="border-radius: 9999px 9999px 6px 6px;" itemscope itemtype="https://schema.org/Person">
+
+  
+  <a href="https://devpika.github.io/">
+    <figure class="image p-3">
+      <img class="is-rounded grayscale" src="/assets/images/bio-photo.jpg" alt="Ayaskant Panigrahi" itemprop="image" class="u-photo">
+    </figure>
+  </a>
+    
+
+    <div class="card-content">
+      <div class="content has-text-centered">
+        <a class="title is-5 is-size-4" itemprop="name" href="https://devpika.github.io/">Ayaskant Panigrahi</a>
+        
+      </div>
+      
+        <div class="content">
+          <p><p>Hopelessly in love with clean code and unobtrusive design!</p>
+</p>
+        </div>
+      
+      
+        <div class="content">
+          <p itemprop="description"><p>XR Developer &amp; Researcher</p>
+</p>
+        </div>
+      
+      <div class="content">
+        
+          <span class="icon-text" itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <span class="icon">
+              <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
+            </span>
+            <span itemprop="name" class="p-locality">Vancouver</span>
+          </span>
+        
+
+        
+          
+            
+            <a href="https://twitter.com/devpika" rel="nofollow noopener noreferrer me" itemprop="sameAs">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+                </span>
+                <span>Twitter</span>
+              </span>
+            </a>
+            
+          
+            
+            <a href="https://github.com/DevPika" rel="nofollow noopener noreferrer me" itemprop="sameAs">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+                </span>
+                <span>GitHub</span>
+              </span>
+            </a>
+            
+          
+            
+            <a href="https://glitch.com/@gameshire" rel="nofollow noopener noreferrer me" itemprop="sameAs">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fas fa-link" aria-hidden="true"></i>
+                </span>
+                <span>Glitch</span>
+              </span>
+            </a>
+            
+          
+            
+            <a href="https://www.linkedin.com/in/ayaskant-panigrahi" rel="nofollow noopener noreferrer me" itemprop="sameAs">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+                </span>
+                <span>LinkedIn</span>
+              </span>
+            </a>
+            
+          
+            
+            <a href="https://gameshire98.itch.io/" rel="nofollow noopener noreferrer me" itemprop="sameAs">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fab fa-fw fa-itch-io" aria-hidden="true"></i>
+                </span>
+                <span>itch.io</span>
+              </span>
+            </a>
+            
+          
+            
+            <a href="https://www.behance.net/ayaskant" rel="nofollow noopener noreferrer me" itemprop="sameAs">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fab fa-fw fa-behance-square" aria-hidden="true"></i>
+                </span>
+                <span>Behance</span>
+              </span>
+            </a>
+            
+          
+            
+          
+        
+
+        
+          <a href="mailto:%61%79%61%73%6B%61%6E%74.%70%61%6E%69%67%72%61%68%69@%67%6D%61%69%6C.%63%6F%6D" rel="me" class="u-email">
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
+              </span>
+              <span>Email</span>
+            </span>
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer py-3">
+    <div class="container">
+        
+        
+
+        <div class="content is-small has-text-centered is-vcentered">
+            <p>&copy; 2024 Ayaskant Panigrahi. Created using the <a href="https://jenil.github.io/bulmaswatch/darkly/">Darkly theme</a>, <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Gem</a> and <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+            <button class="button is-small ml-2" x-data @click="window.scrollTo({top: 0, behavior: 'smooth'})">Back to top</button>
+        </div>
+    </div>
+        
+</footer>
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><script>
+    window.addEventListener("load", () => {
+        const imgs = document.querySelectorAll("img.grayscale");
+        imgs.forEach(element => {
+            element.addEventListener('touchstart', function(e) {
+                element.classList.toggle('hover_effect');
+            });
+            element.addEventListener('touchend', function(e) {
+                element.classList.toggle('hover_effect');
+            });
+        });
+    });
+</script></body>
+</html>
